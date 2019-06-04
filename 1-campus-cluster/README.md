@@ -76,7 +76,7 @@ The output should include the directory `data`, which contains [100-sequence dat
 ls data/100M1/R0
 ```
 
-The output should include the true mulitple sequence alignment, labeled`rose.aln.true.fasta`, and the true tree topology, labeled `rose.tt`.
+The output should include the true mulitple sequence alignment, labeled `rose.aln.true.fasta`, and the true tree topology, labeled `rose.tt`.
 
 
 For this assignment, you will estimate trees by running FastME given the true multiple sequence alignments as input. Specifically, you should run FastME using *two* different methods for estimating distances between sequences, e.g.,
