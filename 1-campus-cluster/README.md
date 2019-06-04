@@ -70,7 +70,7 @@ To see the files/directories that are in your tutorial directory, type
 ls
 ```
 
-The output should include the directory `data`. This directory contains [100-sequence datasets](https://sites.google.com/eng.ucsd.edu/datasets/alignment/sate-i) for three model conditions, labeled `100M1`, `100M2`, and `100M3`. Each model condition contains 5 replicate datasets, labeled `R0`, `R1`, `R2`, `R3`, and `R4`. To see some of the data files, type
+The output should include the directory `data`, which contains [100-sequence datasets](https://sites.google.com/eng.ucsd.edu/datasets/alignment/sate-i), specifically, 5 replicate datasets, labeled `R0`, `R1`, `R2`, `R3`, and `R4` for each of the three model conditions, labeled `100M1`, `100M2`, and `100M3`. To see some of the data files, type
 
 ```
 ls data/100M1/R0
