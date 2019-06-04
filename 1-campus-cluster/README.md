@@ -123,9 +123,8 @@ cd $PBS_O_WORKDIR
 
 Note that this will request that your job be run on one node with at least 12 processors for a maximum wallclock time of 1 hour.
 
-Complete the rest of the script to run FastME. If you are not familar with bash scripting, then you may want to look at [this tutorial](https://www.codecademy.com/learn/learn-the-command-line/modules/bash-scripting). Remember that you should only be writing files, including the output of FastME, in YOUR directory (i.e., `/projects/tallis/reu2019-tutorials/1-campus-cluster/[YourNetID]`)!
+Below these lines, write a bash script to run FastME (in four different ways) on the 15 datasets. If you are not familar with bash scripting, then you may want to look at [this tutorial](https://www.codecademy.com/learn/learn-the-command-line/modules/bash-scripting). Remember that you should only be writing files, including the output of FastME, in YOUR directory (i.e., `/projects/tallis/reu2019-tutorials/1-campus-cluster/[YourNetID]`)! When you finish writing your script, submit it as a job to the Campus Cluster queue; type
 
-When you are finished writing your script, submit it as a job to the Campus Cluster queue; type
 ```
 qsub a_run_fastme.pbs
 ```
@@ -136,13 +135,11 @@ To see that your job has been submitted, type
 qstat -u [YourNetID]
 ```
 
-The output should be ``.
-
 Finally, if you do not have a github account, please make one now. Message me your Github user name on slack, and I will add you to this repository. To add your script to the repository, type 
 
 ```
 git add a_run_fastme.pbs
-git commit -m "Uploading first assignment"
+git commit -m "Add a message here"
 git push
 ```
 
