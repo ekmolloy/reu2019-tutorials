@@ -1,6 +1,6 @@
 Tutorial 1: Campus Cluster
 ==========================
-**If you are in Champaign, you should be working on this assignment as a group between 3-6pm in 3401 Siebel Center. Although you may work together, each of you should write and commit your own script to Github. Message the group slack in channel #tutorials with any questions/issues.**
+**If you are in Champaign, you should be working on this assignment as a group between 3-6pm in 3401 Siebel Center. Although you may work together, each of you should write and commit your own script to Github. If you do not have a github account, please make one now and share your Github user name on slack in the channel #tutorials. Any questions/issues with the tutorial should also be posted to slack.**
 
 In order to complete this assignment, you will need to access the Campus Cluster remotely. If you are using a Windows system, you may need to download an application for this purpose. If you are using a Mac or Linux system, then you can remotely access the Campus Cluster; just open the terminal the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) application and type
 
@@ -70,9 +70,10 @@ mkdir [YourNetID]
 cd [YourNetID]
 ```
 
-And the clone the tutorial directory
+To clone the tutorial directory, type
+
 ```
-git clone
+git clone https://github.com/[YourGithubUserName]/reu2019-tutorials.git
 ```
 
 To see the files/directories that are in your tutorial directory, type
@@ -146,7 +147,7 @@ To see that your job has been submitted, type
 qstat -u [YourNetID]
 ```
 
-Finally, if you do not have a github account, please make one now. Message me your Github user name on slack, and I will add you to this repository. To add your script to the repository, type 
+Finally,  To add your script to the repository, type 
 
 ```
 git add a_run_fastme.pbs
