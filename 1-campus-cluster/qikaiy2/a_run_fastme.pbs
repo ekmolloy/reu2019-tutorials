@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="01:00:00"
+#PBS -j oe
+#PBS -M qikaiy2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+
+for i in {1..3}
+do
+	for j in {0..4}
+	do
+		fastme-2.1.5-linux64-omp -i /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/rose.aln.true.phy -o /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/K_U_tree.tre -d K -m U
+                fastme-2.1.5-linux64-omp -i /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/rose.aln.true.phy -o /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/K_I_tree.tre -d K -m I
+		fastme-2.1.5-linux64-omp -i /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/rose.aln.true.phy -o /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/L_U_tree.tre -d L -m U
+		fastme-2.1.5-linux64-omp -i /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/rose.aln.true.phy -o /projects/tallis/qikaiy2/reu2019-tutorials/data/100M$i/R$j/L_I_tree.tre -d L -m I
+	done
+done
