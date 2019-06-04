@@ -81,14 +81,58 @@ The output should include the true mulitple sequence alignment, labeled`rose.aln
 
 For this assignment, you will estimate trees by running FastME given the true multiple sequence alignments as input. Specifically, you should run FastME using *two* different methods for estimating distances between sequences, e.g.,
 
-+ using p-distances
-+ using K2P-corrected distances
-+ using log-det distances
++ p-distances
++ K2P-corrected distances
++ log-det distances
 
 and *two* different mehtods for estimating trees from distance matrix, e.g.,
 
-+ using Neighbor-Joining (NJ)
-+ using BioNJ
-+ using taxon addition by optimizing the Balanced Minimum Evolution (BME) criterion
++ Neighbor-Joining (NJ)
++ BioNJ
++ taxon addition by optimizing the Balanced Minimum Evolution (BME) criterion
 
 This means that you will be running 4 different analyses on each of the 15 datasets (3 model conditions, each with 5 replicates). 
+
+For this assignment, you will be writing *all* files in your own directory. To create and enter your directory, type
+
+```
+mkdir [YourNetID]
+cd [YourNetID]
+```
+
+and then create a new file
+```
+vim a_run_fastme.pbs
+```
+
+At the top of this file, copy the following text
+
+```
+#!/bin/bash
+
+```
+
+Complete the rest of the script to run FastME. If you are not familar with bash scripting, then you may want to look at [this tutorial](https://www.codecademy.com/learn/learn-the-command-line/modules/bash-scripting). Remember that you should only be writing files, including the output of FastME, in YOUR directory (i.e., `/projects/tallis/reu2019-tutorials/1-campus-cluster/[YourNetID]`)!
+
+When you are finished writing your script, submit it as a job to the Campus Cluster queue; type
+```
+qsub a_run_fastme.pbs
+```
+
+To see that your job has been submitted, type
+
+```
+qstat -u [YourNetID]
+```
+
+The output should be ``.
+
+Finally, if you do not have a github account, please make one now. Message me your Github user name on slack, and I will add you to this repository. To add your script to the repository, type 
+
+```
+git add a_run_fastme.pbs
+git commit -m "Uploading first assignment"
+git push
+```
+
+You will be asked to enter your Github user name and password.
