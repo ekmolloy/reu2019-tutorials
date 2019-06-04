@@ -147,7 +147,7 @@ To see that your job has been submitted, type
 qstat -u [YourNetID]
 ```
 
-Finally,  To add your script to the repository, type 
+To add your script to the repository, type 
 
 ```
 git add a_run_fastme.pbs
@@ -156,3 +156,5 @@ git push
 ```
 
 You will be asked to enter your Github user name and password.
+
+If you edit your script in the future, make sure to add, commit, and push these changes!
