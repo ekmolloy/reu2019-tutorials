@@ -109,8 +109,19 @@ At the top of this file, copy the following text
 
 ```
 #!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="01:00:00"
+#PBS -j oe
+#PBS -M [YourNetID]@illinois.edu
+#PBS -m be
 
+cd $PBS_O_WORKDIR
 ```
+
+Note that this will request that your job be run on one node with at least 12 processors for a maximum wallclock time of 1 hour.
 
 Complete the rest of the script to run FastME. If you are not familar with bash scripting, then you may want to look at [this tutorial](https://www.codecademy.com/learn/learn-the-command-line/modules/bash-scripting). Remember that you should only be writing files, including the output of FastME, in YOUR directory (i.e., `/projects/tallis/reu2019-tutorials/1-campus-cluster/[YourNetID]`)!
 
