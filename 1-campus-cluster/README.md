@@ -70,4 +70,25 @@ To see the files/directories that are in your tutorial directory, type
 ls
 ```
 
-The output should include the directory `data`. 
+The output should include the directory `data`. This directory contains [100-sequence datasets](https://sites.google.com/eng.ucsd.edu/datasets/alignment/sate-i) for three model conditions, labeled `100M1`, `100M2`, and `100M3`. Each model condition contains 5 replicate datasets, labeled `R0`, `R1`, `R2`, `R3`, and `R4`. To see some of the data files, type
+
+```
+ls data/100M1/R0
+```
+
+The output should include the true mulitple sequence alignment, labeled`rose.aln.true.fasta`, and the true tree topology, labeled `rose.tt`.
+
+
+For this assignment, you will estimate trees by running FastME given the true multiple sequence alignments as input. Specifically, you should run FastME using *two* different methods for estimating distances between sequences, e.g.,
+
++ using p-distances
++ using K2P-corrected distances
++ using log-det distances
+
+and *two* different mehtods for estimating trees from distance matrix, e.g.,
+
++ using Neighbor-Joining (NJ)
++ using BioNJ
++ using taxon addition by optimizing the Balanced Minimum Evolution (BME) criterion
+
+This means that you will be running 4 different analyses on each of the 15 datasets (3 model conditions, each with 5 replicates). 
