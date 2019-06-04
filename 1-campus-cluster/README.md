@@ -61,7 +61,18 @@ fastme-2.1.5-linux64-omp -h
 The first line of the output should be ``. You will be completing this assignment in the TALLIS project directory. To change directories, type
 
 ```
-cd /projects/tallis/reu2019-tutorials/1-campus-cluster
+cd /projects/tallis
+```
+
+To make your own directory, type
+```
+mkdir [YourNetID]
+cd [YourNetID]
+```
+
+And the clone the tutorial directory
+```
+git clone
 ```
 
 To see the files/directories that are in your tutorial directory, type
