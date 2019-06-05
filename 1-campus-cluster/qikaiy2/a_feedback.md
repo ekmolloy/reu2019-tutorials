@@ -1,3 +1,6 @@
+**When you make on the changes, add replace `-[ ]` with `-[X]` and commit this file.**
+
+
 - [ ] Use conditionals to check if the output files exist before running seqtools.py or FastME.
 - [ ] Instead of writing the output files (alignments in phylip format and trees in newick format) are being written to `/projects/tallis/qikaiy2/reu2019-tutorials/data`, could you write them to `/projects/tallis/qikaiy2/reu2019-tutorials/1-campus-cluster/qikaiy2`?
 - [ ] Add the commands from the `transfer.sh` script into the `a_run_fastme.pbs` that would be great! It is a good idea to keep commands for the same analysis together, so that we don't need to look through multiple files to understand how the analysis was performed.
