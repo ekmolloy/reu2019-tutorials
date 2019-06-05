@@ -22,3 +22,12 @@ then the output tree should be
 ```
 ((((A:22,B:23):21,C:18):15,D:12):8,E:5);
 ```
+
+To add your script to the repository, type
+
+```
+git add sum_branch_lengths.py
+git commit -m "Add a message here"
+git push
+You will be asked to enter your Github user name and password.
+```
