@@ -157,6 +157,4 @@ git push
 
 You will be asked to enter your Github user name and password.
 
-If you edit your script in the future, make sure to add, commit, and push these changes!
-
 When you are finished, go to the [next page](README_2.md).
