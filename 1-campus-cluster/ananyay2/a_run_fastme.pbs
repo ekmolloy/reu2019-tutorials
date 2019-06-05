@@ -11,7 +11,7 @@
 # because I don't want to type all these out, here are some filepaths
 me="/projects/tallis/ananyay2"
 workdir="$me/reu2019-tutorials"
-outpath="$workdir/1-campus-cluster/ananyay2/t1_outputs"
+outpath="$workdir/1-campus-cluster/ananyay2/results/outputs-final"
 seqtoolspy="/projects/tallis/ananyay2/reu2019-tutorials/tools/seqtools.py"
 
 cd $workdir
@@ -39,6 +39,6 @@ for d in "100M1" "100M2" "100M3"; do
 		$base -d p -m I -o $outpath/p-bionj-${d: -2}-${rep: -2}.tt
 		$base -d p -m N -o $outpath/p-nj-${d: -2}-${rep: -2}.tt
 		$base -d L -m I -o $outpath/logdet-bionj-${d: -2}-${rep: -2}.tt
-		$base -d L -m N -o $outpath/logdet-nj-${d:-2}-{rep: -2}.tt
+		$base -d L -m N -o $outpath/logdet-nj-${d: -2}-${rep: -2}.tt
 	done
 done
