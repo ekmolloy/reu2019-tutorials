@@ -1,0 +1,28 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M ebhamel2@illinois.edu
+#PBS -m be
+#PBS -o tutorial-1-campus-cluster.out
+#PBS -e tutorial-1-campus-cluster.err
+
+data=/projects/tallis/hamel/tutorials/reu2019-tutorials/data
+output=/projects/tallis/hamel/tutorials/reu2019-tutorials/results
+cd $output
+
+for entry in $data/*
+do
+	for rep in $entry/*
+	do
+		python3 seqtools.py -f p -i $rep/rose.aln.true.fasta -o $rep/rose.aln.true.phy
+		name=$(basename $rep)
+		fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -u $rep/rose.tt -I $output/p_distances_${entry}_${name}.txt --dna=p-distance 
+		fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -u $rep/rose.tt -I $output/log_det_${entry}_${name}.txt --dna=LogDet 
+		fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -u $rep/rose.tt -o $output/NJ_tree_${entry}_${name}.tre -m N
+		fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -u $rep/rose.tt -o $output/BioNJ_Tree_${entry}_${name}.tre -m I
+	done
+done
