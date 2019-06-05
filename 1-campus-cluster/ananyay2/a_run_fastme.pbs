@@ -36,9 +36,9 @@ for d in "100M1" "100M2" "100M3"; do
 		# run fastME
 		base="fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -T 12"
 		
-		$base -d p -m I -o $outpath/p-bionj-${rep: -2}.tt
-		$base -d p -m N -o $outpath/p-nj-${rep: -2}.tt
-		$base -d L -m I -o $outpath/logdet-bionj-${rep: -2}.tt
-		$base -d L -m N -o $outpath/logdet-nj-${rep: -2}.tt
+		$base -d p -m I -o $outpath/p-bionj-${d: -2}-${rep: -2}.tt
+		$base -d p -m N -o $outpath/p-nj-${d: -2}-${rep: -2}.tt
+		$base -d L -m I -o $outpath/logdet-bionj-${d: -2}-${rep: -2}.tt
+		$base -d L -m N -o $outpath/logdet-nj-${d:-2}-{rep: -2}.tt
 	done
 done
