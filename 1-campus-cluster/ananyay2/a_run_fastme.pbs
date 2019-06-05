@@ -8,23 +8,37 @@
 #PBS -M ananyay2@illinois.edu
 #PBS -m be
 
-$me="/projects/tallis/ananyay2"
-$PBS_O_WORKDIR="$me/reu2019_tutorials"
-$outpath="$PBS_O_WORKDIR/ananyay2/t1_outputs"
+# because I don't want to type all these out, here are some filepaths
+me="/projects/tallis/ananyay2"
+workdir="$me/reu2019-tutorials"
+outpath="$workdir/1-campus-cluster/ananyay2/t1_outputs"
+seqtoolspy="/projects/tallis/ananyay2/reu2019-tutorials/tools/seqtools.py"
 
-cd $PBS_O_WORKDIR
+cd $workdir
 
-$seqtoolspy="/projects/tallis/ananyay2/reu2019_tutorials/tools/seqtools.py"
+# check if the output folder is full, and if it is, make a new one
+if [ "$(ls -A $outpath)" ]; then
+	now=$(date +%m%d%y%H%M)
+	outpath="$workdir/1-campus-cluster/ananyay2/results/output-$now"
+	mkdir 1-campus-cluster/ananyay2/results/output-$now
+fi
 
-for d in data/*; do
+
+for d in "100M1" "100M2" "100M3"; do
 	echo $d
-	for rep in $d/*; do
-		echo $rep
+	for r in "R0" "R1" "R2" "R3" "R4"; do
+		# set replicate filepath (full)
+		rep=$workdir/data/$d/$r
+
+		# change the .fasta to .phy for this specific replicate
 		python $seqtoolspy -f p -i $rep/rose.aln.true.fasta -o $rep/rose.aln.true.phy
-		$base="fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -u $rep/rose.tt"
-	       	$base -d p -m I -o $outpath/p-bionj-${rep:-2}.tt
-		$base -d p -m N -o $outpath/p-nj-${rep:-2}.tt
-		$base -d L -m I -o $outpath/logdet-bionj-${rep:-2}.tt
-		$base -d L -m N -o $outpath/logdet-nj-${rep:-2}.tt
+
+		# run fastME
+		base="fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -T 12"
+		
+		$base -d p -m I -o $outpath/p-bionj-${d: -2}-${rep: -2}.tt
+		$base -d p -m N -o $outpath/p-nj-${d: -2}-${rep: -2}.tt
+		$base -d L -m I -o $outpath/logdet-bionj-${d: -2}-${rep: -2}.tt
+		$base -d L -m N -o $outpath/logdet-nj-${d:-2}-{rep: -2}.tt
 	done
 done
