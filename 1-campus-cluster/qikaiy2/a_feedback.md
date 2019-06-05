@@ -1,4 +1,4 @@
-**When you make on the changes, add replace `-[ ]` with `-[X]` and commit this file.**
+**When you make one of these changes, add replace `-[ ]` with `-[X]` and commit this file.**
 
 
 - [ ] Use conditionals to check if the output files exist before running seqtools.py or FastME.
