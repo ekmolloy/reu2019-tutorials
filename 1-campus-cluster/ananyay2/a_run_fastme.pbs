@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="01:00:00"
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+$me="/projects/tallis/ananyay2"
+$PBS_O_WORKDIR="$me/reu2019_tutorials"
+$outpath="$PBS_O_WORKDIR/ananyay2/t1_outputs"
+
+cd $PBS_O_WORKDIR
+
+$seqtoolspy="/projects/tallis/ananyay2/reu2019_tutorials/tools/seqtools.py"
+
+for d in data/*; do
+	echo $d
+	for rep in $d/*; do
+		echo $rep
+		python $seqtoolspy -f p -i $rep/rose.aln.true.fasta -o $rep/rose.aln.true.phy
+		$base="fastme-2.1.5-linux64-omp -i $rep/rose.aln.true.phy -u $rep/rose.tt"
+	       	$base -d p -m I -o $outpath/p-bionj-${rep:-2}.tt
+		$base -d p -m N -o $outpath/p-nj-${rep:-2}.tt
+		$base -d L -m I -o $outpath/logdet-bionj-${rep:-2}.tt
+		$base -d L -m N -o $outpath/logdet-nj-${rep:-2}.tt
+	done
+done
