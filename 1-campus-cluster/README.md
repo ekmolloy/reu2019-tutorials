@@ -1,5 +1,5 @@
-Tutorial 1: Campus Cluster
-==========================
+Tutorial 1: Running batch analyses on the Campus Cluster
+========================================================
 **If you are in Champaign, you should be working on this assignment as a group between 3-6pm in 3401 Siebel Center. Although you may work together, each of you should write and commit your own script to Github. If you do not have a github account, please make one now and share your Github user name on slack in the channel #tutorials. Any questions/issues with the tutorial should also be posted to slack.**
 
 In order to complete this assignment, you will need to access the Campus Cluster remotely. If you are using a Windows system, you may need to download an application for this purpose. If you are using a Mac or Linux system, then you can remotely access the Campus Cluster; just open the terminal the [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)) application and type
@@ -158,3 +158,5 @@ git push
 You will be asked to enter your Github user name and password.
 
 If you edit your script in the future, make sure to add, commit, and push these changes!
+
+When you are finished, go to the [next page](README_2.md).
