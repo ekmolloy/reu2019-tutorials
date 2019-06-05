@@ -14,7 +14,7 @@ cd [YourNetID]
 vim sum_branch_lengths.py
 ```
 
-This Python script, called `sum_branch_lengths.py`, should take as input a rooted tree with branch lengths (in newick format) and output a rooted tree with branch lengths (in newick format). However, the branch lengths in the output tree should be the distance between the branch and the root (including the branch length). For example, if the input tree was 
+This Python script should take as input a rooted tree with branch lengths (in newick format) and output a rooted tree with branch lengths (in newick format). However, the branch lengths in the output tree should be the distance between the branch and the root (including the branch length). For example, if the input tree was 
 ```
 ((((A:1,B:2):6,C:3):7,D:4):8,E:5);
 ```
