@@ -1,4 +1,4 @@
-- [ ] Use conditionals to check if the output file `rose.aln.true.phy` exists before running seqtools.py and if the output trees (e.g., `NJ_tree_${entry}_${name}.tre`) exist before running FastME.
+- [ ] Use conditionals to check if the output files exist before running seqtools.py or FastME.
 - [ ] Looping over `$data/*` does not work in general. I just uploaded an additional files to the `data` directory, which may cause your script to throw errors. Although we avoid "magic variables" when coding, it is perfectly okay to hardcode directory names when running computational experiments, for example, `for modl in "100M1" "100M2" "100M3"`.
 - [ ] Remove `-u` option. IRL, we will not have access to the true tree topology, so we do not want to give the true tree to FastME as input.
 - [ ] Right now, you are running FastME with 16 threads (default). Because we request 12 cores, let's specify the number of threads to be 12 (e.g., `-T 12`).
