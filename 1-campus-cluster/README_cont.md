@@ -81,3 +81,5 @@ git push
 ```
 
 You will be asked to enter your Github user name and password.
+
+When you are finished, go to the next [page](README_notes.md).
