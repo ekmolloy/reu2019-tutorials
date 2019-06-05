@@ -4,7 +4,7 @@ If you are in Champaign, you should be working on this assignment as a group bet
 
 Everyone did a great job yesterday! I am so pleased with all of your progress -- epsecially in my absence! Before moving on to the next activity, we are going to be making some modifications to the scripts that we wrote yesterday.
 
-**Ananya and Emma**: If you could clone this repository that would be great! I already added your scripts from yesterday. This will make it easier for me to see what you both are doing and it will make it easier for both of you to access the latest version of this repository.
+**Ananya and Emma**: If you could clone this repository (instead of forking it) that would be great! I already added your scripts from yesterday. This will make it easier for me to see what you both are doing and it will make it easier for both of you to access the latest version of this repository.
 
 To pull the latest changes to the repository, type
 
