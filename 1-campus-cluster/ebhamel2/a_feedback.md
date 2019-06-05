@@ -1,1 +1,2 @@
+- [ ] Looping over `$data/*` does not work in general. I just uploaded an additional files to the `data` directory, which may cause your script to throw errors. Although we avoid "magic variables" when coding, it is perfectly okay to hardcode directory names when running computational experiments, for example, `for modl in "100M1" "100M2" "100M3"`.
 - [ ] Remove `-u` option. IRL, we will not have access to the true tree topology, so we do not want to give the true tree to FastME as input.
