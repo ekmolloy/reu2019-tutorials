@@ -108,6 +108,7 @@ This means that you will be running 4 different analyses on each of the 15 datas
 For this assignment, you will be writing *all* files in your own directory. To create and enter your directory, type
 
 ```
+cd 1-campus-cluster
 mkdir [YourNetID]
 cd [YourNetID]
 ```
