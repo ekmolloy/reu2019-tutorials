@@ -6,8 +6,6 @@ Everyone did a great job yesterday! I am so pleased with all of your progress --
 
 **Ananya and Emma**: If you could clone this repository that would be great! I already added your scripts from yesterday. This will make it easier for me to see what you both are doing and it will make it easier for both of you to access the latest version of this repository.
 
-Before you beginning this tutorial, take a look at your feedback: [Ananya](ananyay2/a_feedback.md), [Alan](binghui2/a_run_fastme.pbs), [Emma](ebhamel2/a_feedback.md), [Qikai](qikaiy2/a_feedback.md). You may want to edit your scripts before or after working on this tutorial.
-
 To pull the latest changes to the repository, type
 
 ```
@@ -15,8 +13,9 @@ cd /projects/tallis/[YourUserName]/reu2019-tutorials
 git pull
 ```
 
-and to create a new file, type
+Before you beginning this tutorial, take a look at your feedback: [Ananya](ananyay2/a_feedback.md), [Alan](binghui2/a_run_fastme.pbs), [Emma](ebhamel2/a_feedback.md), [Qikai](qikaiy2/a_feedback.md). You may want to edit your scripts before or after working on this tutorial.
 
+If you working on this tutorial, type
 ```
 cd 1-campus-cluster/[YourUserName]
 vim b_compare_fastme_trees.pbs
