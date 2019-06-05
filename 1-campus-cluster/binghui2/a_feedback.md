@@ -1,3 +1,5 @@
+**When you make one of these changes, add replace `-[ ]` with `-[X]` and commit this file.**
+
 - [ ] Use conditionals to check if the output files exist before running seqtools.py or FastME.
 - [ ] Instead of writing the output files (alignments in phylip format and trees in newick format) are being written to `/projects/tallis/binghui2/reu2019-tutorials/data`, could you write them to `/projects/tallis/binghui2/reu2019-tutorials/1-campus-cluster/binghui2`?
 - [ ] Try not to reset the environment variables, for example, `PBS_O_WORKDIR`. Either avoid using the variable `PBS_O_WORKDIR` like Emma did [here](https://github.com/ekmolloy/reu2019-tutorials/blob/master/1-campus-cluster/ebhamel2/a_run_fastme.pbs) or use the variable like Qikai did [here](https://github.com/ekmolloy/reu2019-tutorials/blob/master/1-campus-cluster/qikaiy2/a_run_fastme.pbs).
