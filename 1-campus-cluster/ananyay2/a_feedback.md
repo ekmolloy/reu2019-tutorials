@@ -1,3 +1,5 @@
+**When you make one of these changes, add replace `-[ ]` with `-[X]` and commit this file.**
+
 - [ ] Use conditionals to check if the output files exist before running seqtools.py or FastME.
 - [ ] Try not to reset the environment variables, for example, `PBS_O_WORKDIR`. Either avoid using the variable `PBS_O_WORKDIR` like Emma did [here](https://github.com/ekmolloy/reu2019-tutorials/blob/master/1-campus-cluster/ebhamel2/a_run_fastme.pbs) or use the variable like Qikai did [here](https://github.com/ekmolloy/reu2019-tutorials/blob/master/1-campus-cluster/qikaiy2/a_run_fastme.pbs).
 - [ ] Looping over `$data/*` does not work in general. I just uploaded an additional files to the `data` directory, which may cause your script to throw errors. Although we avoid "magic variables" when coding, it is perfectly okay to hardcode directory names when running computational experiments, for example, `for modl in "100M1" "100M2" "100M3"`.
