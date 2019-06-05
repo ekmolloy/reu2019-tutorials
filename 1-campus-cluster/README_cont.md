@@ -66,6 +66,12 @@ To see a list of failures, type
 grep "NA$" fastme.csv
 ```
 
+When you finish writing your script, submit it as a job to the Campus Cluster queue; type
+
+```
+qsub b_compare_fastme_trees.pbs
+```
+
 To see that your job has been submitted, type
 
 ```
