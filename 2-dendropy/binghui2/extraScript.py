@@ -2,20 +2,24 @@ import argparse
 import dendropy
 import os
 import sys
-
+##### is this used to check whether the split is shard
 def isShared(bi,tree):
     edges = tree.edges()
     for e in edges:
         if bi == e.bipartition:
             return e
     return None
-
+####comparsion func
 def compareBiparitate(tree1,tree2,tax):
+    if len(tree1.nodes()) != len(tree1.nodes()):
+        print("trees of different number of leaves")
+        return
     res1 = dendropy.Tree.encode_bipartitions(tree1)
     res2 = dendropy.Tree.encode_bipartitions(tree2)
     
     edges1 = tree1.edges()
     edges2 = tree2.edges()
+
     for e1 in edges1:
         if e1.bipartition.is_trivial():
             continue
@@ -34,7 +38,7 @@ def compareBiparitate(tree1,tree2,tax):
 
 
 
-
+###main func
 def main(args):
     tax = dendropy.TaxonNamespace()
     tree1 = dendropy.Tree.get(path=args.tree1,
@@ -51,7 +55,7 @@ def main(args):
     os._exit(0)
 
 
-
+###parser copied from compare_trees.py
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="comparison")
     parser.add_argument("-t1","--tree1",type=str, required=True)
