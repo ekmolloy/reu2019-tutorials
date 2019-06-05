@@ -24,4 +24,4 @@ for node in tree.preorder_node_iter():
 print("the editted tree is as below:")
 print(tree.as_string(schema="newick"))
 print("-------")
-#----------------------------------second part -> change the weights of the edges 
+#----------------------------------second part -> change the weights of the edges--------------------------------------------- 
