@@ -1,1 +1,1 @@
-test
+- [ ] Try not to reset the environment variables, for example, `PBS_O_WORKDIR`. Either avoid using the variable `PBS_O_WORKDIR` like Emma did [here](https://github.com/ekmolloy/reu2019-tutorials/blob/master/1-campus-cluster/ebhamel2/a_run_fastme.pbs) or use the variable like Qikai did [here](https://github.com/ekmolloy/reu2019-tutorials/blob/master/1-campus-cluster/qikaiy2/a_run_fastme.pbs).
