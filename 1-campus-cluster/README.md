@@ -125,7 +125,7 @@ At the top of this file, copy the following text
 #PBS -W group_list=tallis
 #PBS -q secondary
 #PBS -l nodes=1:ppn=12
-#PBS -l walltime="01:00:00"
+#PBS -l walltime=01:00:00
 #PBS -j oe
 #PBS -M [YourNetID]@illinois.edu
 #PBS -m be
