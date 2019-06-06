@@ -4,7 +4,7 @@ Tutorial 2: Presenting data using pandas, matplotlib, and seaborn (optional)
 
 You may do this tutorial on the campus cluster or on your laptop, as long as you write code that is compatible with Python v3.7.0 and uses [pandas](https://pandas.pydata.org/), [matplotlib](https://matplotlib.org/), and [seaborn](https://seaborn.pydata.org/) (optional) modules.
 
-![Alt text](plot-example.pdf)
+![Alt text](plot-example.png)
 
 
 ![Alt text](table-example.png)
