@@ -1,5 +1,5 @@
 ********************************************************************************
-INDELible V1.03 by Will Fletcher : Simulation began at: Fri Jun  7 11:21:32 2019
+INDELible V1.03 by Will Fletcher : Simulation began at: Fri Jun  7 15:12:33 2019
 ********************************************************************************
 
   * Block 1 was completed in 0.01 seconds.
@@ -7,7 +7,7 @@ INDELible V1.03 by Will Fletcher : Simulation began at: Fri Jun  7 11:21:32 2019
 ********************************************************************************
 
 
-  * Block 2 was completed in 0.01 seconds.
+  * Block 2 was completed in 0 seconds.
 
 ********************************************************************************
 
@@ -17,18 +17,18 @@ INDELible V1.03 by Will Fletcher : Simulation began at: Fri Jun  7 11:21:32 2019
 ********************************************************************************
 
 
-  * Block 4 was completed in 0.01 seconds.
+  * Block 4 was completed in 0 seconds.
 
 ********************************************************************************
 
 
-  * Block 5 was completed in 0.01 seconds.
+  * Block 5 was completed in 0 seconds.
 
 ********************************************************************************
 
-  * Simulation completed. Whole batch took: 0.06 seconds.
+  * Simulation completed. Whole batch took: 0.02 seconds.
 
-INDELible V1.03 Simulations completed at: Fri Jun  7 11:21:32 2019
+INDELible V1.03 Simulations completed at: Fri Jun  7 15:12:33 2019
 
 ********************************************************************************
 

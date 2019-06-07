@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="01:00:00"
+#PBS -j oe
+#PBS -M binghui2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+cur_dir="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step3"
+cd $cur_dir
+for factor in {}
+do
+
+done	
