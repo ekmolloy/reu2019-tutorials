@@ -1,0 +1,29 @@
+nother useful thing to know is that anything after a forward slash and star
+   is ignored until INDELible sees a star followed by a forward slash later on.
+*/     
+
+[TYPE] NUCLEOTIDE 1 //  EVERY control file must begin with a [TYPE] command.
+            //  The number after "NUCLEOTIDE" can be 1 or 2 and chooses the 
+            //  algorithm that INDELible uses (see manuscript). Both give 
+            //  identical results but in some cases one is quicker.
+            //  Other blocks and commands following this statement
+            //  can come in any order you like.
+
+[MODEL]    modelname        //  Evolutionary models are defined in [MODEL] blocks.
+  [submodel]     JC         //  Here the substitution model is simply set as JC69.
+  
+[TREE] treename  (A:0.1,B:0.1);        //  User trees are defined here
+
+[PARTITIONS] partitionname             //  [PARTITIONS] blocks say which models go with
+  [treename modelname 1000]            //  which trees and define the length of the
+                                       //  sequence generated at the root (1000 here).
+
+[EVOLVE] partitionname 1 outputname  //  This will generate 100 replicate datasets 
+                                       //  from the [PARTITIONS] block named above.
+
+// The true alignment will be output in a file named outputname_TRUE.phy
+// The unaligned sequences will be output in a file named outputname.fas
+// To learn how to implement more complicated simulations (or different 
+// models) please consult the manual or the other example control files.
+
+
