@@ -1,0 +1,87 @@
+----------------------------------------
+Begin Torque Prologue (Wed Jun  5 10:59:43 2019)
+Job ID:           8724765.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=00:10:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub324
+End Torque Prologue
+----------------------------------------
+MODL REPL DIST TREE NL I1 I2 FP FN RF
+100M1 R0 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R0 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R0 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R0 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R1 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R1 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R1 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R1 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R2 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R2 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R2 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R2 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R3 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R3 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R3 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R3 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R4 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R4 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R4 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M1 R4 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R0 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R0 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R0 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R0 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R1 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R1 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R1 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R1 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R2 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R2 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R2 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R2 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R3 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R3 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R3 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R3 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R4 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R4 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R4 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M2 R4 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R0 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R0 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R0 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R0 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R1 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R1 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R1 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R1 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R2 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R2 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R2 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R2 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R3 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R3 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R3 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R3 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R4 K2P NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R4 K2P BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R4 LogDet NJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+100M3 R4 LogDet BIONJ (null): can't open file '../../tools/compare_trees.py': [Errno 2] No such file or directory
+----------------------------------------
+Begin Torque Epilogue (Wed Jun  5 10:59:46 2019)
+Job ID:           8724765.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          159020
+Limits:           nodes=1:ppn=12,walltime=00:10:00,neednodes=1:ppn=12
+Resources:        cput=00:00:01,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub324
+End Torque Epilogue
+----------------------------------------
