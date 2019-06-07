@@ -1,0 +1,41 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M [YourNetID]@illinois.edu
+#PBS -m be
+current_workdir=/projects/tallis/binghui2/reu2019-tutorials/1-campus-cluster/binghui2
+cd $current_workdir
+#echo format first
+echo "MODL,REPL,DIST,TREE,NL,I1,I2,FP,FN,RF" >> fastme.csv
+csvformat=","
+outputformat=" "
+for i in {1..3}
+do
+	for j in {0..4}
+	do
+		cat1="100M$i R$j L NJ "
+		res1=$(python ../../tools/compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/NJ+LogDetM$i$j)
+       		output1="$cat1$res1"
+		echo "${output1//$outputformat/$csvformat}" >> fastme.csv
+		cat2="100M$i R$j P NJ "
+		res2=$(python ../../tools/compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/NJ+p-distanceM$i$j)
+       		output2="$cat2$res2"
+		echo "${output2//$outputformat/$csvformat}" >> fastme.csv
+		cat3="100M$i R$j L BIONJ "
+		res3=$(python ../../tools/compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/BIONJ+LogDetM$i$j)
+       		output3="$cat3$res3"
+		echo "${output3//$outputformat/$csvformat}" >> fastme.csv
+		cat4="100M$i R$j P BIONJ "
+		res4=$(python ../../tools/compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/BIONJ+p-distanceM$i$j)
+       		output4="$cat4$res4"
+		echo "${output4//$outputformat/$csvformat}" >> fastme.csv
+	done
+	#python compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/NJ+p-distanceM$i$j
+	#python compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/BIONJ+LogDetM$i$j
+	#python compare_trees.py ../../data/100M$i/R$j/rose.tt ../../data/BIONJ+p-distanceM$i$j	
+done	
+	
