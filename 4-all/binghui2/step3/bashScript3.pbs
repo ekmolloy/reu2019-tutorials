@@ -11,7 +11,12 @@
 cd $PBS_O_WORKDIR
 cur_dir="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step3"
 cd $cur_dir
-for factor in {}
+for i in {0..4}
 do
-
+	for factor in {0.1,0.05,0.01,0.005,0.001}
+	do
+		name="output$i"+"$factor"+"_TRUE.phy"
+		resfile="fastme$i"+"$factor"
+		fastme-2.1.5-linux64-omp -i $name -o $resfile -m N -d J -T 12
+	done
 done	
