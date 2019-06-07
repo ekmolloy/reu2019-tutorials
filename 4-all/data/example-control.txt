@@ -10,12 +10,12 @@ nother useful thing to know is that anything after a forward slash and star
             //  can come in any order you like.
 
 [MODEL]    modelname        //  Evolutionary models are defined in [MODEL] blocks.
-  [submodel]     JC         //  Here the substitution model is simply set as JC69.
+[submodel]     JC         //  Here the substitution model is simply set as JC69.
   
 [TREE] treename  (A:0.1,B:0.1);        //  User trees are defined here
 
 [PARTITIONS] partitionname             //  [PARTITIONS] blocks say which models go with
-  [treename modelname 1000]            //  which trees and define the length of the
+[treename modelname 1000]            //  which trees and define the length of the
                                        //  sequence generated at the root (1000 here).
 
 [EVOLVE] partitionname 1 outputname  //  This will generate 100 replicate datasets 
