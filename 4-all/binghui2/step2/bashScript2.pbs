@@ -11,7 +11,7 @@
 cd $PBS_O_WORKDIR
 cur_dir="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step2"
 cd $cur_dir
-for factor in {0.1,0.05,0.01,0.005,0.001}
+for factor in {1,0.1,0.05,0.01,0.005,0.001}
 do
 	command0="python pyScript.py -f $factor"
 	eval $command0
