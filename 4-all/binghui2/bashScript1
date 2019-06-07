@@ -1,0 +1,5 @@
+#!/bin/bash
+command1="./indelible control.txt"
+eval $command1
+ 
+ 
