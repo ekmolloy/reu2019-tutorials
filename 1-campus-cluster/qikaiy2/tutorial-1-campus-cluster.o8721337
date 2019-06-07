@@ -1,0 +1,850 @@
+----------------------------------------
+Begin Torque Prologue (Tue Jun  4 18:05:02 2019)
+Job ID:           8721337.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub308
+End Torque Prologue
+----------------------------------------
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 69% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 68% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 68% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 68% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 68% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 66% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 64% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 64% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 64% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 64% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 54% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 54% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 54% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 54% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 53% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 53% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 53% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 53% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 61% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 61% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 61% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 61% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 74% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 74% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 74% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 74% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 55% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 55% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 55% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 55% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 51% of sites contain gaps.
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m00s
+----------------------------------------
+Begin Torque Epilogue (Tue Jun  4 18:05:18 2019)
+Job ID:           8721337.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          85901
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:59,vmem=0kb,walltime=00:00:17,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub308
+End Torque Epilogue
+----------------------------------------
