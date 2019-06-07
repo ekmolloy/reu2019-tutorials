@@ -38,6 +38,24 @@ where
 
 5. Write a Python script to create a boxplot of the RF error rate each model condition. How is accuracy impacted by the branch length multiplier?
 
-6. Write a Python script to create a scatter plot with the following properties. Each point in the scatterplot represents a bipartition (and branch) in the estimated tree with the x-axis being the length of the branch and the y-axis being the depth of the branch, that is, the sum of branch lengths going from the root to (and including) that branch. Color the dot black if the bipartition is in the true tree and color the dot red if the bipartition is NOT in the true tree. Note that if you have not finished the tutorial on Dendropy; you should do that first. Plot the bipartitions from the first replicate for each model condition (in the same figure). How is accuracy impacted by the branch length and branch depth?
+6. Write a bash script that uses your code from the Dendropy tutorial to create a CSV with the following columns
+
+```
+MODL,REPL,MULT,DIST,TREE,ESTI_LNTH,ESTI_DPTH,TRUE_LNTH,TRUE_DPTH
+```
+
++ `MODl` is the model condition (`100M3`)
++ `REPL` is the replicate number (`R0`, `R1`, `R2`, `R3`, `R4`)
++ `MULT` is the muliplier (0.1, 0.05, 0.01, 0.005, and 0.001)
++ `DIST` is the method used to compute distances between pairs of sequences (`JC`)
++ `TREE` is the method used to estimate a tree from the distance matrix (`NJ`)
++ `ESTI_LNTH` is the length of a branch corresponding to a bipartition in the estimated tree
++ `ESTI_DPTH` is the depth of the branch corresponding to a bipartition in the estimated tree
++ `TRUE_LNTH` is the length of a branch corresponding to the SAME biparittion but in the true tree (NA if the bipartition doesn't exist in the true tree)
++ `TRUE_DPTH` is the depth of a branch corresponding to the SAME biparittion but in the true tree (NA if the bipartition doesn't exist in the true tree)
+
+Note that this is related to the tutorial on Dendropy, so you should finish that tutorial if you haven't already.
+
+7. Write a Python script to create a scatter plot with the following properties. Each point in the scatterplot represents a bipartition (and branch) in the estimated tree with the x-axis being the length of the branch and the y-axis being the depth of the branch, that is, the sum of branch lengths going from the root to (and including) that branch. Color the dot black if the bipartition is in the true tree and color the dot red if the bipartition is NOT in the true tree.  Plot the bipartitions from the first replicate for each model condition (in the same figure). How is accuracy impacted by the branch length and branch depth?
 
 If you still have time, you write up a list of questions / comments that you want to discuss during my office hours or during our group meetings next week. You may also want to work on any homework assignments from Tandy or improving the assignments (especially the Python code) from this week (e.g., writing more test cases, adding docstrings to document functions, using pycodestyle/pep8 to format the code, etc). Finally, please message me the number of hours that you worked this week. I know that each of you was in the tutorials for 18 hours this week, but some of you may have worked more hours. Also, don't forget to submit the hours to the time system. Hope you have a great weekend!!!!!
