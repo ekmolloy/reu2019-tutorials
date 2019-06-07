@@ -1,12 +1,5 @@
 #!/bin/bash
-
-for i in {1..5}
-do
-	[TYPE] NUCLEOTIDE 1
-	[MODEL] modelname
-	[submodel] JC
-	[TREE]	rose.mt
-	[PARTITIONS] 
-		[treename modelname 1000]
-	[EVOLVE] 
-done
+command1="./indelible control.txt"
+eval $command1
+ 
+ 
