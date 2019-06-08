@@ -1,0 +1,25 @@
+\begin{tabular}{rrlllll}
+\toprule
+ \# of Taxa &  \# of Genes & Species Tree Height & Data Type &                        Method & Fraction of Replicates & Replicates numbers \\
+\midrule
+       100 &          75 &                500K &      exon &         NJMerge(True,log-det) &                   1/20 &                10  \\
+       100 &          75 &                500K &      exon &           NJMerge(RAxML,AGID) &                   1/20 &                16  \\
+       100 &          75 &                500K &    intron &            NJMerge(True,AGID) &                   1/20 &                 6  \\
+      1000 &        3000 &                 10M &    intron &       NJMerge(ASTRAL,log-det) &                   1/20 &                20  \\
+      1000 &        3000 &                 10M &    intron &                   SVDquartets &                  20/20 &                All \\
+      1000 &        3000 &                 10M &    intron &                         RAxML &                  20/20 &                All \\
+      1000 &        3000 &                500K &    intron &                        ASTRAL &                   4/20 &          1 5 6 20  \\
+      1000 &        3000 &                500K &    intron &  NJMerge(SVDquartets,log-det) &                   1/20 &                 6  \\
+      1000 &        3000 &                500K &    intron &                   SVDquartets &                  20/20 &                All \\
+      1000 &        3000 &                500K &    intron &                         RAxML &                  19/20 &      All except 6  \\
+      1000 &        3000 &                 10M &      exon &                   SVDquartets &                  20/20 &                All \\
+      1000 &        3000 &                 10M &      exon &                         RAxML &                   3/20 &            2 8 17  \\
+      1000 &        3000 &                500K &      exon &                        ASTRAL &                  19/20 &     All except 15  \\
+      1000 &        3000 &                500K &      exon &  NJMerge(SVDquartets,log-det) &                   2/20 &             14 18  \\
+      1000 &        3000 &                500K &      exon &        NJMerge(RAxML,log-det) &                   2/20 &             14 18  \\
+      1000 &        3000 &                500K &      exon &         NJMerge(True,log-det) &                   1/20 &                18  \\
+      1000 &        3000 &                500K &      exon &       NJMerge(ASTRAL,log-det) &                   1/20 &                18  \\
+      1000 &        3000 &                500K &      exon &                   SVDquartets &                  20/20 &                All \\
+\bottomrule
+\end{tabular}
+
