@@ -17,7 +17,7 @@ def change(treestring,n):
     final = tree.as_string(schema="newick")
     final = final[4:]
     #print(final)
-    return 0
+    return final
 
 for i in range(5):
     for j in range(6):
@@ -26,10 +26,10 @@ for i in range(5):
 for i in range(5):
     for j in range(6):
         result += "[TREE] Tree" + str(i)+str(j) +"  "
-        f = open("../../data/100M3/R"+str(i)+"/rose.mt",'r')
+        f = open("../data/100M3/R"+str(i)+"/rose.mt",'r')
         for line in f.readlines():
             line = line.strip()
-            result += "  " + line.replace('\n','')
+            result += "  " + change(line.replace('\n',''), j)
         result += "\n"
 
 for i in range(5):
