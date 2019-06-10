@@ -5,7 +5,7 @@ for i in range(5):
 
 for i in range(5):
     result += "[TREE] Tree" + str(i) +"  "
-    f = open("../data/100M3/R"+str(i)+"/rose.mt",'r')
+    f = open("../../data/100M3/R"+str(i)+"/rose.mt",'r')
     for line in f.readlines():
         line = line.strip()
         result += "  " + line.replace('\n','')
