@@ -71,3 +71,5 @@ make_barchart(axes[1, 2], 100, 1000)
 make_barchart(axes[1, 3], 1000, 1000)
 
 plt.savefig("fig1.png")
+
+# THINGS I COULDN'T GET WORKING: N= LABELS AND LEGEND
