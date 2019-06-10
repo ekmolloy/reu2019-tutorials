@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M ebhamel2@illinois.edu
+#PBS -m be
+#PBS -o a_run_indelible.out
+#PBS -e a_run_indelible.err
+
+cd /projects/tallis/reu2019/software/INDELibleV1.03/src/
+control=/projects/tallis/reu2019/software/INDELibleV1.03/src/control.txt
+
+for rep in R0
+do
+	> $control
+	line=$(head -n 1 /projects/tallis/hamel/reu2019-tutorials/4-all/data/100M3/$rep/rose.mt)
+	output_file=/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/$rep/alignment
+	echo $output_file
+	printf "[TYPE] NUCLEOTIDE 1\n" >> $control
+	printf "[MODEL] modelname\n" >> $control
+	printf "[submodel] GTR 0.318706 0.083336 0.126271 0.450343 0.089108\n" >> $control
+	printf "[statefreq] 0.193359 0.253100 0.330303 0.223238\n" >> $control
+	printf "[rates] 0 0.188771 0\n" >> $control
+	printf "[TREE] treename $line\n" >> $control
+	printf "[PARTITIONS] partitionname\n" >> $control
+	printf "[treename modelname 1000]\n" >> $control
+	printf "[EVOLVE] partitionname 5 $output_file\n" >> $control
+	/projects/tallis/reu2019/software/INDELibleV1.03/src/indelible $control
+done
+
