@@ -1,0 +1,988 @@
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 13:02:05 2019)
+Job ID:           8736288.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub143
+End Torque Prologue
+----------------------------------------
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:02:05 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +--------------------------------+
+ | ERROR in [TREE] block treename |
+ | Unknown command.               |
+ | Last Input read was: [treename |
+ +--------------------------------+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:02:05 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +--------------------------------+
+ | ERROR in [TREE] block treename |
+ | Unknown command.               |
+ | Last Input read was: [treename |
+ +--------------------------------+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:02:05 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +--------------------------------+
+ | ERROR in [TREE] block treename |
+ | Unknown command.               |
+ | Last Input read was: [treename |
+ +--------------------------------+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:02:05 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +--------------------------------+
+ | ERROR in [TREE] block treename |
+ | Unknown command.               |
+ | Last Input read was: [treename |
+ +--------------------------------+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:02:05 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +--------------------------------+
+ | ERROR in [TREE] block treename |
+ | Unknown command.               |
+ | Last Input read was: [treename |
+ +--------------------------------+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 13:02:06 2019)
+Job ID:           8736288.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          83182
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub143
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 13:39:14 2019)
+Job ID:           8736518.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub105
+End Torque Prologue
+----------------------------------------
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:39:15 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +-----------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                   |
+ | The Evolve block must contain a multiple of 3 statements: |
+ | PartitionClassName1  NumberOfReps1  FilenameStub1         |
+ | PartitionClassName2  NumberOfReps2  FilenameStub2         |
+ | and so on...                                              |
+ +-----------------------------------------------------------+
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:39:15 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +-----------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                   |
+ | The Evolve block must contain a multiple of 3 statements: |
+ | PartitionClassName1  NumberOfReps1  FilenameStub1         |
+ | PartitionClassName2  NumberOfReps2  FilenameStub2         |
+ | and so on...                                              |
+ +-----------------------------------------------------------+
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:39:15 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +-----------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                   |
+ | The Evolve block must contain a multiple of 3 statements: |
+ | PartitionClassName1  NumberOfReps1  FilenameStub1         |
+ | PartitionClassName2  NumberOfReps2  FilenameStub2         |
+ | and so on...                                              |
+ +-----------------------------------------------------------+
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:39:15 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +-----------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                   |
+ | The Evolve block must contain a multiple of 3 statements: |
+ | PartitionClassName1  NumberOfReps1  FilenameStub1         |
+ | PartitionClassName2  NumberOfReps2  FilenameStub2         |
+ | and so on...                                              |
+ +-----------------------------------------------------------+
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:39:15 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +-----------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                   |
+ | The Evolve block must contain a multiple of 3 statements: |
+ | PartitionClassName1  NumberOfReps1  FilenameStub1         |
+ | PartitionClassName2  NumberOfReps2  FilenameStub2         |
+ | and so on...                                              |
+ +-----------------------------------------------------------+
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 13:39:15 2019)
+Job ID:           8736518.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          120153
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub105
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 13:44:59 2019)
+Job ID:           8736520.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub035
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R1
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R2
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R3
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R4
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 13:44:59 2019)
+Job ID:           8736520.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          103599
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=98516kb,walltime=00:00:24,mem=3512kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub035
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 13:53:59 2019)
+Job ID:           8736522.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub105
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0.tt
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R1.tt
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R2.tt
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R3.tt
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R4.tt
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 13:54:00 2019)
+Job ID:           8736522.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          122388
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub105
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 13:56:08 2019)
+Job ID:           8736523.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub105
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:56:08 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.59 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 13:56:09 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R1.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:56:09 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.59 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 13:56:09 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R2.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:56:09 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.59 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 13:56:10 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R3.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:56:10 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.58 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 13:56:11 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R4.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 13:56:11 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.59 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 13:56:11 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 13:56:11 2019)
+Job ID:           8736523.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          122802
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:03,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub105
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:13:01 2019)
+Job ID:           8737948.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub101
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:13:02 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 1.17 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:13:03 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R1.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:13:03 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 1.14 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:13:04 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R2.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:13:04 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 1.16 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:13:05 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R3.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:13:05 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 1.14 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:13:07 2019
+
+
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R4.tt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:13:07 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 1.16 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:13:08 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:13:08 2019)
+Job ID:           8737948.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          27278
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:06,vmem=109164kb,walltime=00:00:25,mem=828kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub101
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:28:08 2019)
+Job ID:           8737955.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub034
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:28:09 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.7 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:28:09 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:28:09 2019)
+Job ID:           8737955.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          90893
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:01,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub034
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:37:07 2019)
+Job ID:           8737960.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub167
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:37:08 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.69 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:37:09 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:37:09 2019)
+Job ID:           8737960.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          79497
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:28,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub167
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:44:35 2019)
+Job ID:           8737962.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub185
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:44:36 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.68 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:44:37 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:44:37 2019)
+Job ID:           8737962.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          35565
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:02,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub185
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:50:40 2019)
+Job ID:           8737963.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub334
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:50:40 2019
+
+
+
+  * Block 1 completed.   Time taken: 14.68 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:50:55 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:50:55 2019)
+Job ID:           8737963.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          43871
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:15,vmem=0kb,walltime=00:00:15,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub334
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 16:07:16 2019)
+Job ID:           8737970.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub096
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0/alignment
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 16:07:17 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------+
+ | ERROR in [EVOLVE] block                         |
+ | No partitions block called p0 has been defined. |
+ +-------------------------------------------------+
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 16:07:17 2019)
+Job ID:           8737970.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          44863
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub096
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 16:12:31 2019)
+Job ID:           8737972.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub131
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0/alignment
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 16:12:32 2019
+
+
+                                                                      
+
+
+
+ +--------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                |
+ | No partitions block called partition has been defined. |
+ +--------------------------------------------------------+
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 16:12:32 2019)
+Job ID:           8737972.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          88880
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub131
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 16:20:56 2019)
+Job ID:           8737977.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub315
+End Torque Prologue
+----------------------------------------
+/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/R0/alignment
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 16:20:57 2019
+
+
+                                                                      
+
+
+
+ +--------------------------------------------------------+
+ | ERROR in [EVOLVE] block                                |
+ | No partitions block called partition has been defined. |
+ +--------------------------------------------------------+
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 16:20:57 2019)
+Job ID:           8737977.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          23975
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub315
+End Torque Epilogue
+----------------------------------------

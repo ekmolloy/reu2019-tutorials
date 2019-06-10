@@ -1,0 +1,1697 @@
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:00:53 2019)
+Job ID:           8737945.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub165
+End Torque Prologue
+----------------------------------------
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 7
+    set_constant = [1, 0.1, 0.05, 0.01, 0.005, and 0.001]
+                                                 ^
+SyntaxError: invalid syntax
+/var/spool/torque/mom_priv/jobs/8737945.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 7
+    set_constant = [1, 0.1, 0.05, 0.01, 0.005, and 0.001]
+                                                 ^
+SyntaxError: invalid syntax
+/var/spool/torque/mom_priv/jobs/8737945.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 7
+    set_constant = [1, 0.1, 0.05, 0.01, 0.005, and 0.001]
+                                                 ^
+SyntaxError: invalid syntax
+/var/spool/torque/mom_priv/jobs/8737945.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 7
+    set_constant = [1, 0.1, 0.05, 0.01, 0.005, and 0.001]
+                                                 ^
+SyntaxError: invalid syntax
+/var/spool/torque/mom_priv/jobs/8737945.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 7
+    set_constant = [1, 0.1, 0.05, 0.01, 0.005, and 0.001]
+                                                 ^
+SyntaxError: invalid syntax
+/var/spool/torque/mom_priv/jobs/8737945.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:00:53 2019)
+Job ID:           8737945.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          112675
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub165
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:10:43 2019)
+Job ID:           8737947.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub213
+End Torque Prologue
+----------------------------------------
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 4, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'dendropy' is not defined
+/var/spool/torque/mom_priv/jobs/8737947.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 4, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'dendropy' is not defined
+/var/spool/torque/mom_priv/jobs/8737947.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 4, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'dendropy' is not defined
+/var/spool/torque/mom_priv/jobs/8737947.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 4, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'dendropy' is not defined
+/var/spool/torque/mom_priv/jobs/8737947.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 4, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'dendropy' is not defined
+/var/spool/torque/mom_priv/jobs/8737947.cc-mgmt1.campuscluster.illinois.edu.SC: line 44: /projects/tallis/reu2019/software/INDELibleV1.03/src/: Is a directory
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:10:44 2019)
+Job ID:           8737947.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          26034
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:01,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub213
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 15:37:52 2019)
+Job ID:           8737961.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub167
+End Torque Prologue
+----------------------------------------
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:37:54 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.45 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:37:54 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:37:54 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.45 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:37:55 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:37:55 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.46 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:37:55 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:37:56 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.45 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:37:56 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 15:37:56 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.44 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 15:37:57 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 15:37:57 2019)
+Job ID:           8737961.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          79666
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:03,vmem=0kb,walltime=00:00:05,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub167
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 17:04:56 2019)
+Job ID:           8737989.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub175
+End Torque Prologue
+----------------------------------------
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:04:58 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:04:58 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:04:58 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:04:58 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:04:58 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:04:58 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:04:58 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:04:58 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 6, in <module>
+    tree_dictionary[i] = dendropy.Tree.get(file=open(sys.argv[1]),
+NameError: name 'sys' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:04:58 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:04:58 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 17:04:59 2019)
+Job ID:           8737989.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          56244
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:01,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub175
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 17:21:42 2019)
+Job ID:           8737998.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub044
+End Torque Prologue
+----------------------------------------
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 16, in <module>
+    tree_dictionary[i].write(path='/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/scaled_tree/modeltrees/' + get_rep(sys.argv[1]) + 'scale_' +  str(set_constant[i]) + '.tre', 
+NameError: name 'get_rep' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:21:43 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:21:43 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 16, in <module>
+    tree_dictionary[i].write(path='/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/scaled_tree/modeltrees/' + get_rep(sys.argv[1]) + 'scale_' +  str(set_constant[i]) + '.tre', 
+NameError: name 'get_rep' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:21:44 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:21:44 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 16, in <module>
+    tree_dictionary[i].write(path='/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/scaled_tree/modeltrees/' + get_rep(sys.argv[1]) + 'scale_' +  str(set_constant[i]) + '.tre', 
+NameError: name 'get_rep' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:21:44 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:21:44 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 16, in <module>
+    tree_dictionary[i].write(path='/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/scaled_tree/modeltrees/' + get_rep(sys.argv[1]) + 'scale_' +  str(set_constant[i]) + '.tre', 
+NameError: name 'get_rep' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:21:44 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:21:44 2019
+
+
+Traceback (most recent call last):
+  File "/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/modeltree_modifier.py", line 16, in <module>
+    tree_dictionary[i].write(path='/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/scaled_tree/modeltrees/' + get_rep(sys.argv[1]) + 'scale_' +  str(set_constant[i]) + '.tre', 
+NameError: name 'get_rep' is not defined
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:21:44 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:21:44 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 17:21:45 2019)
+Job ID:           8737998.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          1640
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:01,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub044
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 17:30:25 2019)
+Job ID:           8738000.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub179
+End Torque Prologue
+----------------------------------------
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:30:27 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:30:27 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:30:27 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:30:27 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:30:27 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:30:27 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:30:28 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:30:28 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:30:28 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.01 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:30:28 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 17:30:28 2019)
+Job ID:           8738000.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          68012
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:01,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub179
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 17:38:04 2019)
+Job ID:           8738002.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub357
+End Torque Prologue
+----------------------------------------
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:38:06 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.05 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:38:06 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:38:07 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.05 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:38:07 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:38:07 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.05 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:38:07 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:38:08 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.05 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:38:08 2019
+
+
+1 is finished
+0.1 is finished
+0.05 is finished
+0.01 is finished
+0.005 is finished
+0.001 is finished
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 17:38:08 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.05 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 17:38:08 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 17:38:09 2019)
+Job ID:           8738002.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          16452
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:03,vmem=0kb,walltime=00:00:04,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub357
+End Torque Epilogue
+----------------------------------------
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 18:51:50 2019)
+Job ID:           8738008.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub168
+End Torque Prologue
+----------------------------------------
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+                                                                      
+
+
+
+ +---------------------------------------------------------+
+ | ERROR in [TREE] block treename in command [user]        |
+ | A branch length in the guide tree appears non-numerical |
+ +---------------------------------------------------------+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:51 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:51 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Fri Jun  7 18:51:52 2019
+
+
+                                                                      
+
+
+
+ +-------------------------------------------------------------------+
+ | ERROR in [MODEL] block modelname in command basefreqs             |
+ | A model with unequal base frequencies was chosen: model 13        |
+ | but you have not specified base frequencies.  They will be equal. |
+ +-------------------------------------------------------------------+
+
+
+  * Block 1 completed.   Time taken: 0.02 seconds.
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Fri Jun  7 18:51:52 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 18:51:52 2019)
+Job ID:           8738008.cc-mgmt1.campuscluster.illinois.edu
+Username:         ebhamel2
+Group:            tallis
+Job Name:         tutorial-1-campus-cluster
+Session:          59566
+Limits:           nodes=1:ppn=12,walltime=01:00:00,neednodes=1:ppn=12
+Resources:        cput=00:00:01,vmem=0kb,walltime=00:00:02,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub168
+End Torque Epilogue
+----------------------------------------

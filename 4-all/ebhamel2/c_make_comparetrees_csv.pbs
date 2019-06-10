@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M ebhamel2@illinois.edu
+#PBS -m be
+
+results=/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results/compare_trees.csv
+comparetrees=/projects/tallis/hamel/reu2019-tutorials/tools/compare_trees.py
+results_path=/projects/tallis/hamel/reu2019-tutorials/4-all/ebhamel2/results
+
+printf "MODL\tREPL\tDIST\tTREE\tNL\tI1\tI2\tFP\tFN\tRF\n" >> $results
+
+#check if seqtools.py exists and can be executed
+if [ ! -x $comparetrees ];
+then
+    	echo "Compare_trees file could not be found or run"
+        exit 1
+fi
+
+for entry in $st/*
+do
+	truetree=/projects/tallis/hamel/reu2019-tutorials/data/$modl/$rep/rose.tt
+	printf "$modl\t$rep\t$dist\t$tree\t" >> $results
+	if [[ ! -s $results_path/${tree}_on_${dist}_${modl}_${rep}.tre ]]; then
+		printf "NA\tNA\tNA\tNA\tNA\tNA\n" >> $results
+		continue
+	fi
+	python3 $comparetrees $truetree $results_path/${tree}_on_${dist}_${modl}_${rep}.tre >> $results
+	printf "\n" >> $results
+done
