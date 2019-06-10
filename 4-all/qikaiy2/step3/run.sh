@@ -6,7 +6,7 @@ do
 		-i /projects/tallis/qikaiy2/reu2019-tutorials/4-all/qikaiy2/alignment$i$j"_"TRUE.phy \
 		-o /projects/tallis/qikaiy2/reu2019-tutorials/4-all/qikaiy2/step3/trees/tree$i$j.tre \
 		-d J \
-		-m U \
+		-m N \
 		-T 12
 	done
 done
