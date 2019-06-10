@@ -33,6 +33,7 @@ plt.subplot(2, 3, 6)
 plt.title("branch length*0.001")
 outfile5NJ = df1[(df1[u"MULT"]==0.001)]
 bp = plt.boxplot(outfile5NJ["RF"],widths = 0.6)
-plt.subplots_adjust(bottom=-0.5, top=1.5, left=-0.6, right=1.6)
+#plt.subplots_adjust(bottom=-0.5, top=1.5, left=-0.6, right=1.6)
+
 plt.savefig('boxplots.png')
 
