@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage[margin=1in]{geometry}\begin{document}
+\begin{table}[h!]
+\begin{center}
+\caption{Insert description of the table here.}
+\begin{tabular}{cccccrl}
+\toprule
+\# of     & \# of     & Species Tree  & Data  & Method    & Fraction of   & Replicate\\
+Taxa      & Genes     & Height        & Type  &           & Replicates    & Numbers\\
+\midrule
+100 & 25 & 500K & exon & NJMerge($\mathcal{T}_{RAX}, \mathcal{D}_{AGID}$) & $1\backslash20$ & 16\\
+100 & 25 & 500K & exon & NJMerge($\mathcal{T}_{true}, \mathcal{D}_{LD}$) & $1\backslash20$ & 10\\
+100 & 25 & 500K & intron & NJMerge($\mathcal{T}_{true}, \mathcal{D}_{AGID}$) & $1\backslash20$ & 6\\
+1000 & 1000 & 10M & exon & SVDquartets & $20\backslash20$ & All\\
+1000 & 1000 & 10M & exon & RAxML & $3\backslash20$ & 2, 8, 17\\
+1000 & 1000 & 10M & intron & NJMerge($\mathcal{T}_{AST}, \mathcal{D}_{LD}$) & $1\backslash20$ & 20\\
+1000 & 1000 & 10M & intron & SVDquartets & $20\backslash20$ & All\\
+1000 & 1000 & 10M & intron & RAxML & $20\backslash20$ & All\\
+1000 & 1000 & 500K & exon & ASTRAL-III & $19\backslash20$ & All except 15\\
+1000 & 1000 & 500K & exon & NJMerge($\mathcal{T}_{AST}, \mathcal{D}_{LD}$) & $1\backslash20$ & 18\\
+1000 & 1000 & 500K & exon & SVDquartets & $20\backslash20$ & All\\
+1000 & 1000 & 500K & exon & NJMerge($\mathcal{T}_{SVD}, \mathcal{D}_{LD}$) & $2\backslash20$ & 14, 18\\
+1000 & 1000 & 500K & exon & NJMerge($\mathcal{T}_{RAX}, \mathcal{D}_{LD}$) & $2\backslash20$ & 14, 18\\
+1000 & 1000 & 500K & exon & NJMerge($\mathcal{T}_{true}, \mathcal{D}_{LD}$) & $1\backslash20$ & 18\\
+1000 & 1000 & 500K & intron & ASTRAL-III & $4\backslash20$ & 1, 5, 6, 20\\
+1000 & 1000 & 500K & intron & SVDquartets & $20\backslash20$ & All\\
+1000 & 1000 & 500K & intron & NJMerge($\mathcal{T}_{SVD}, \mathcal{D}_{LD}$) & $1\backslash20$ & 6\\
+1000 & 1000 & 500K & intron & RAxML & $19\backslash20$ & All except 6\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}
