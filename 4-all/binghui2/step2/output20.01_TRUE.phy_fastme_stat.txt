@@ -7,9 +7,11 @@ Papers to be cited:
 FastME 2.0 - A comprehensive, accurate and fast distance-based phylogeny inference program.
 	Vincent Lefort, Richard Desper and Olivier Gascuel,
 	Molecular Biology and Evolution 32(10), 2798-800, 2015.
-NJ algorithm:
-	Saitou N., Nei M. 1987. The neighbor-joining method: a new method for reconstructing phylogenetic trees.
-	Molecular Biology and Evolution, 4(4):406-25
+UNJ algorithm:
+	Gascuel O. 1997. Concerning the NJ algorithm and its unweighted version, UNJ.
+	Mathematical Hierarchies and Biology,
+	B. Mirkin, F.R. McMorris, F.S. Roberts and A. Rzetsky (eds.),
+	American Mathematical Society, Providence, 149-170
 
 -------------------------------------------------------------------------------
 Settings for this run:
@@ -21,7 +23,7 @@ Settings for this run:
   O                    Output calculated distance matrix  no              
 
   D                                   Number of datasets  1               
-  M                         Initial tree building method  NJ              
+  M                         Initial tree building method  UNJ             
   N                                   NNI postprocessing  no              
   S                                   SPR postprocessing  no              
 

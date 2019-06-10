@@ -18,6 +18,6 @@ do
 	do
 		name="../step2/output$i${factor}_TRUE.phy" 
 		resfile="fastme$i"+"$factor"
-		fastme-2.1.5-linux64-omp -i $name -o $resfile -m N -d J -T 12
+		fastme-2.1.5-linux64-omp -i $name -o $resfile -m U -d J -T 12
 	done
 done	

@@ -22,7 +22,7 @@ do
 		path1=../../../tools
 		filename="fastme$i"+"$factor"
 
-		res1=$(python $path1/compare_trees.py  ../../data/100M3/R$i/rose.mt  ../../binghui2/step3/$filename)
+		res1=$(python $path1/compare_trees.py ../../../data/100M3/R$i/rose.tt  ../../binghui2/step3/$filename)
         output1="$cat1$res1"
 		echo "${output1//$outputformat/$csvformat}" >> fastme.csv
 	done
