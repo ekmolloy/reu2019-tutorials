@@ -23,7 +23,7 @@ def tree(f, rep_folder, scales):
             tree = dendropy.Tree.get(path=filepath, schema="newick")
             tree.scale_edges(scales[j])
             p=rep_folder+"R"+str(t)+"/" + str(scales[j]).replace(".","-") + ".tt"
-            tree.write(path=p, schema="newick", real_value_format_specifier=".5f")
+            tree.write(path=p, schema="newick", real_value_format_specifier=".6f")
             f.write("[TREE] T"+str((t*len(scales))+j) + " " + p + "\n")
 
 def partitions(f, n):
