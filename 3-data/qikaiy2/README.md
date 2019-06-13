@@ -1,8 +1,8 @@
 Edits for table:
--[ ] Add lines to table (using \midline etc)
--[ ] Center the columns with words (e.g., data type and method)
--[ ] Left align the second to last column
--[ ] Divide number of genes by 3
+- [ ] Add lines to table (using \midline etc)
+- [ ] Center the columns with words (e.g., data type and method)
+- [ ] Left align the second to last column
+- [ ] Divide number of genes by 3
 
 Edits for figure:
 -[ ] Update the titles. For example, the first title should be updated from 
