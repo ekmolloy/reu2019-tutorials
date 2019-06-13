@@ -1,0 +1,41 @@
+#!/bin/bash
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M emolloy2@illinois.edu
+#PBS -m be
+
+basepath="/projects/tallis/emolloy2/reu2019-tutorials/"
+datapath="$basepath/1-campus-cluster/emolloy2/data"
+toolpath="$basepath/tools"
+
+modl=$arg1
+repl=$arg2
+dist=$arg3
+tree=$arg4
+
+               input="$basepath/data/$modl/$repl/rose.aln.true"
+               output="$datapath/data/$modl/$repl/rose.aln.true"
+
+               # Convert fasta file to phylip file
+               python3 $toolpath/seqtools.py \
+                   -f p \
+                   -i $input.fasta \
+                   -o $output.phy
+
+               if [ ! -e $output-$dist-$tree.tre ]; then
+                   ts=$(date +%s) # How do we do this with the linux time command?
+                   fastme-2.1.5-linux64-omp \
+                       --dna=${dist} \
+                       --method=${tree} \
+                       -i $output.phy \
+                       -o $output-$dist-$tree.tre &> $output-$dist-$tree.log
+                   te=$(date +%s)
+                   rt=$[te - ts]
+                   echo "$rt" > $output-$dist-$tree-secs.txt
+                fi
+
+                # Remove phylip file when done
+                rm $output.phy
