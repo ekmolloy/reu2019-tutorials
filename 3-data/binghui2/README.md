@@ -7,6 +7,7 @@ Edits for table:
 
 Edits for figure:
 -----------------
+- [ ] Combine the two figures into a single figure
 - [ ] Update the titles. For example, the first title should be updated from 
 ```
 100tax,25intro
@@ -24,6 +25,7 @@ should be changed to
 Low/mod ILS
 (N=20,20)
 ```
+- [ ] Add a label for the y-axis (`Species Tree Error`)
 - [ ] Color the boxplots blue / orange to match the running time graph
 - [ ] Draw the mean on the boxplot (it is a gray box in the current figure)
 - [ ] Update labels on x-axis for running time figure. For example, the first x-axis label should be changed from 
