@@ -8,6 +8,8 @@
 #PBS -M emolloy2@illinois.edu
 #PBS -m be
 
+# Note to make some edits to run things in the background
+
 basepath="/projects/tallis/emolloy2/reu2019-tutorials/"
 datapath="$basepath/1-campus-cluster/emolloy2/data"
 toolpath="$basepath/tools"
@@ -29,8 +31,9 @@ for modl in "100M1" "100M2" "100M3"; do
                    fastme-2.1.5-linux64-omp \
                        --dna=${dist} \
                        --method=${tree} \
+                       -T 1 \
                        -i $output.phy \
-                       -o $output-$dist-$tree.tre &> $output-$dist-$tree.log
+                       -o $output-$dist-$tree.tre &> $output-$dist-$tree.log &
                 fi
 
                 # Remove phylip file when done
