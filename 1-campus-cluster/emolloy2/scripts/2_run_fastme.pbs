@@ -30,6 +30,7 @@ tree=$arg4
                    fastme-2.1.5-linux64-omp \
                        --dna=${dist} \
                        --method=${tree} \
+                       -T 12 \
                        -i $output.phy \
                        -o $output-$dist-$tree.tre &> $output-$dist-$tree.log
                    te=$(date +%s)
