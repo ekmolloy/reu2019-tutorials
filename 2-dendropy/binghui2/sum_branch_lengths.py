@@ -15,7 +15,9 @@ def edgeLength(inputTree):
             continue
         node.edge.length = res[i]
         i = i+1
-    print(newTree.as_string(schema='newick'))
+	return newTree
+	#sys.stdout.write(newTree.as_string(schema='newick'))
+	#sys.flush()
     #print(res)
 
 
@@ -27,10 +29,10 @@ def main(args):
                                   rooting='force-rooted',
                                   suppress_internal_node_taxa=False,
                                   taxon_namespace=tax)
-    edgeLength(inputTree)
-    #sys.stdout.write(outputTree.as_string(schema="newick"))
-    #sys.stdout.flush()
-    #os._exit(0)
+    outputTree = edgeLength(inputTree)
+    sys.stdout.write(outputTree.as_string(schema="newick"))
+    sys.stdout.flush()
+    os._exit(0)
 
 
 
@@ -39,3 +41,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="inputTree")
     parser.add_argument("-t1","--tree1",type=str, required=True,help="File for inputTree")
     main(parser.parse_args())
+
