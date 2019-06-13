@@ -1,0 +1,81 @@
+----------------------------------------
+Begin Torque Prologue (Wed Jun 12 15:03:13 2019)
+Job ID:           8762138.cc-mgmt1.campuscluster.illinois.edu
+Username:         ananyay2
+Group:            tallis
+Job Name:         tutorial-4-everything
+Limits:           nodes=1:ppn=12,walltime=00:20:00,neednodes=1:ppn=12
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub042
+End Torque Prologue
+----------------------------------------
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/R0/rose.mt
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/R1/rose.mt
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/R2/rose.mt
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/R3/rose.mt
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/
+/projects/tallis/ananyay2/reu2019-tutorials/4-all/data/100M3/R4/rose.mt
+
+ INDELible V1.03 by Will Fletcher: Simulation began at Wed Jun 12 15:03:16 2019
+
+
+
+  * Block 1 completed.   Time taken: 0 seconds.
+  * Block 2 completed.   Time taken: 0 seconds.
+  * Block 3 completed.   Time taken: 0 seconds.
+  * Block 4 completed.   Time taken: 0 seconds.
+  * Block 5 completed.   Time taken: 0 seconds.
+  * Block 6 completed.   Time taken: 0 seconds.
+  * Block 7 completed.   Time taken: 0 seconds.
+  * Block 8 completed.   Time taken: 0 seconds.
+  * Block 9 completed.   Time taken: 0 seconds.
+  * Block 10 completed.   Time taken: 0 seconds.
+  * Block 11 completed.   Time taken: 0 seconds.
+  * Block 12 completed.   Time taken: 0 seconds.
+  * Block 13 completed.   Time taken: 0 seconds.
+  * Block 14 completed.   Time taken: 0 seconds.
+  * Block 15 completed.   Time taken: 0 seconds.
+  * Block 16 completed.   Time taken: 0 seconds.
+  * Block 17 completed.   Time taken: 0 seconds.
+  * Block 18 completed.   Time taken: 0 seconds.
+  * Block 19 completed.   Time taken: 0 seconds.
+  * Block 20 completed.   Time taken: 0 seconds.
+  * Block 21 completed.   Time taken: 0 seconds.
+  * Block 22 completed.   Time taken: 0 seconds.
+  * Block 23 completed.   Time taken: 0 seconds.
+  * Block 24 completed.   Time taken: 0 seconds.
+  * Block 25 completed.   Time taken: 0 seconds.
+  * Block 26 completed.   Time taken: 0 seconds.
+  * Block 27 completed.   Time taken: 0 seconds.
+  * Block 28 completed.   Time taken: 0 seconds.
+  * Block 29 completed.   Time taken: 0 seconds.
+  * Block 30 completed.   Time taken: 0 seconds.
+  * All blocks complete. Time taken: 0.01 seconds.
+
+
+
+ *** SIMULATION COMPLETED - PLEASE CONSULT OUTPUT FILES ***                                                                     
+
+
+ INDELible V1.03 Simulations completed at: Wed Jun 12 15:03:16 2019
+
+
+----------------------------------------
+Begin Torque Epilogue (Wed Jun 12 15:03:16 2019)
+Job ID:           8762138.cc-mgmt1.campuscluster.illinois.edu
+Username:         ananyay2
+Group:            tallis
+Job Name:         tutorial-4-everything
+Session:          71356
+Limits:           nodes=1:ppn=12,walltime=00:20:00,neednodes=1:ppn=12
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:03,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub042
+End Torque Epilogue
+----------------------------------------
