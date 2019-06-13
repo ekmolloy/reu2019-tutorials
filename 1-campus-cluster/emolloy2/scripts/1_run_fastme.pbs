@@ -1,0 +1,41 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M emolloy2@illinois.edu
+#PBS -m be
+
+basepath="/projects/tallis/emolloy2/reu2019-tutorials/"
+datapath="$basepath/1-campus-cluster/emolloy2/data"
+toolpath="$basepath/tools"
+
+for modl in "100M1" "100M2" "100M3"; do
+    for repl in `seq -f "R%01g" 0 4`; do
+        for dist in "P" "J"; do
+            for tree in "B" "N"; do
+               input="$basepath/data/$modl/$repl/rose.aln.true"
+               output="$datapath/data/$modl/$repl/rose.aln.true"
+
+               # Convert fasta file to phylip file
+               python3 $toolpath/seqtools.py \
+                   -f p \
+                   -i $input.fasta \
+                   -o $output.phy
+
+               if [ ! -e $output-$dist-$tree.tre ]; then
+                   fastme-2.1.5-linux64-omp \
+                       --dna=${dist} \
+                       --method=${tree} \
+                       -i $output.phy \
+                       -o $output-$dist-$tree.tre &> $output-$dist-$tree.log
+                fi
+
+                # Remove phylip file when done
+                rm $output.phy
+            done
+        done
+    done
+done
