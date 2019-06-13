@@ -30,7 +30,6 @@ and you could write the fastme files to
 ```
 fastme-2.1.5-linux64-omp -i $name -o $resfile.tre -m U -d J -T 12 &> $resfile.log
 ```
-- [ ] I don't think that you are running neighbor joining in Step 3. I think this should be `-m N`.
 - [ ] It's hard for me to believe that your code for Step 6 is working.
 For example,
 ```
