@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M nikhila4@illinois.edu
+#PBS -m be
+
+> fastme.csv
+echo "MODL,REPL,DIST,TREE,NL,I1,I2,FN,FP,RF" >> fastme.csv
+for i in {1..3}
+do
+	for j in {0..4}
+	do 
+		res=$( python /projects/tallis/nikhila4/reu2019-tutorials/tools/compare_trees.py /projects/tallis/nikhila4/reu2019-tutorials/data/100M$i/R$j/rose.tt /projects/tallis/nikhila4/reu2019-tutorials/1-campus-cluster/nikhila4/results/BioNJ_LogDet_100M${i}_R${j} )
+		echo "100M${i},R${j},LogDet,BioNJ,$res" >> fastme.csv 
+
+		res=$( python /projects/tallis/nikhila4/reu2019-tutorials/tools/compare_trees.py /projects/tallis/nikhila4/reu2019-tutorials/data/100M$i/R$j/rose.tt /projects/tallis/nikhila4/reu2019-tutorials/1-campus-cluster/nikhila4/results/BioNJ_P-Dist_100M${i}_R${j} )
+		echo "100M${i},R${j},P-Dist,BioNJ,$res" >> fastme.csv 
+
+		res=$( python /projects/tallis/nikhila4/reu2019-tutorials/tools/compare_trees.py /projects/tallis/nikhila4/reu2019-tutorials/data/100M$i/R$j/rose.tt /projects/tallis/nikhila4/reu2019-tutorials/1-campus-cluster/nikhila4/results/NJ_LogDet_100M${i}_R${j} )
+		echo "100M${i},R${j},LogDet,NJ,$res" >> fastme.csv 
+
+		res=$( python /projects/tallis/nikhila4/reu2019-tutorials/tools/compare_trees.py /projects/tallis/nikhila4/reu2019-tutorials/data/100M$i/R$j/rose.tt /projects/tallis/nikhila4/reu2019-tutorials/1-campus-cluster/nikhila4/results/NJ_P-Dist_100M${i}_R${j} )
+		echo "100M${i},R${j},P-Dist,NJ,$res" >> fastme.csv 
+	done
+done
