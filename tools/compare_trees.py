@@ -21,13 +21,13 @@ I1 = 1
 I2 = 2
     + # of internal branches in tree 2
     + in this example: A,B|C,D,E and A,B,C|D,E
+FN = 0
+    + # of internal branches (from tree 1) missing from tree 2
+    + # of false negatives if tree 1 is true and tree 2 is estimated
 FP = 1
     + # of internal branch (from tree 2) missing from tree 1
     + # of false positives if tree 1 is true and tree 2 is estimated
     + in this example: A,B|C,D,E
-FN = 0
-    + # of internal branches (from tree 1) missing from tree 2
-    + # of false negatives if tree 1 is true and tree 2 is estimated
 RF = 0.25
     + Robinson-Foulds (RF) distance
     + in this example: (FP+FN)/(2*NL-6) = (1+0)/(2*5-6) = 0.25
@@ -91,6 +91,6 @@ if __name__ == "__main__":
     tr2.collapse_basal_bifurcation(set_as_unrooted_tree=True)
 
     [nl, ei1, ei2, fn, fp, rf] = compare_trees(tr1, tr2)
-    sys.stdout.write('%d %d %d %d %d %1.6f\n' % (nl, ei1, ei2, fn, fp, rf))
+    sys.stdout.write('%d,%d,%d,%d,%d,%1.6f\n' % (nl, ei1, ei2, fn, fp, rf))
     sys.stdout.flush()
     os._exit(0)  # CRITICAL ON BLUE WATERS LOGIN NODE
