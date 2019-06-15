@@ -1,0 +1,27 @@
+----------------------------------------
+Begin Torque Prologue (Fri Jun  7 16:42:58 2019)
+Job ID:           8737982.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         step1.sh
+Limits:           walltime=00:10:00
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub189
+End Torque Prologue
+----------------------------------------
+/var/spool/torque/mom_priv/jobs/8737982.cc-mgmt1.campuscluster.illinois.edu.SC: line 11: ./indelible: No such file or directory
+----------------------------------------
+Begin Torque Epilogue (Fri Jun  7 16:42:59 2019)
+Job ID:           8737982.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         step1.sh
+Session:          122337
+Limits:           walltime=00:10:00
+Resources:        cput=00:00:00,vmem=68224kb,walltime=00:00:27,mem=712kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub189
+End Torque Epilogue
+----------------------------------------

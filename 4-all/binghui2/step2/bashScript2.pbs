@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M binghui2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+cur_dir="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step2"
+cd $cur_dir
+for factor in {1,0.1,0.05,0.01,0.005,0.001}
+do
+	command0="python pyScript.py -f $factor"
+	eval $command0
+	command1="./indelible control.txt"
+	eval $command1
+done	

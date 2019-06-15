@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="01:00:00"
+#PBS -j oe
+#PBS -M binghui2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+cur_dir="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step3"
+cd $cur_dir
+for i in {0..4}
+do
+	for factor in {1.0,0.1,0.05,0.01,0.005,0.001}
+	
+	do
+		name="../step2/output$i${factor}_TRUE.phy" 
+		resfile="fastme$i"+"$factor"
+		fastme-2.1.5-linux64-omp -i $name -o $resfile -m U -d J -T 12
+	done
+done	

@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -N "tutorial-4-all"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="00:10:00"
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+
+me="/projects/tallis/ananyay2"
+workdir="$me/reu2019-tutorials"
+alldir="$workdir/4-all/ananyay2"
+ctrl="$alldir/part1-control.txt"
+
+cd $alldir
+
+cp /projects/tallis/reu2019/software/INDELibleV1.03/src/indelible $alldir
+cp $ctrl control.txt
+
+./indelible 

@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="01:00:00"
+#PBS -j oe
+#PBS -M binghui2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+cur_dir="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step4"
+cd $cur_dir
+echo "MODL,REPL,MULT,DIST,TREE,NL,I1,I2,FP,FN,RF" >> fastme.csv
+csvformat=","
+outputformat=" "
+for i in {0..4}
+do
+	for factor in {1.0,0.1,0.05,0.01,0.005,0.001}
+	do
+		cat1="100M3 R$i $factor JC NJ "
+		path1=../../../tools
+		filename="fastme$i"+"$factor"
+
+		res1=$(python $path1/compare_trees.py ../../../data/100M3/R$i/rose.tt  ../../binghui2/step3/$filename)
+        output1="$cat1$res1"
+		echo "${output1//$outputformat/$csvformat}" >> fastme.csv
+	done
+done
