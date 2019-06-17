@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N "tutorial-4-all"
+#PBS -N "t4-3"
 #PBS -W group_list=tallis
 #PBS -q secondary
 #PBS -l nodes=1:ppn=12
@@ -11,12 +11,11 @@
 
 me="/projects/tallis/ananyay2"
 workdir="$me/reu2019-tutorials"
-outpath="$workdir/4-all/ananyay2/fastme"
+outpath="$workdir/4-all/ananyay2/processed-data"
 
 cd $workdir/4-all
 
 cd $outpath
-rm -rf *
 
 for r in {0..4}; do
 	cd $outpath
@@ -24,8 +23,10 @@ for r in {0..4}; do
 
 	cd $workdir/4-all
 
-	rep="$workdir/4-all/ananyay2/scaled-outputs"
+	rep="$workdir/4-all/ananyay2/processed-data"
 	for s in "1-0" "0-1" "0-01" "0-05" "0-001" "0-005"; do
-		fastme-2.1.5-linux64-omp -i $rep/100M3R${r}S${s}_TRUE.phy -m N -o $outpath/R$r/NJ_$s.tt
+		base="fastme-2.1.5-linux64-omp -i $rep/R${r}/INDELible_${s}_TRUE.phy -d J  -m N -T 12"
+	       	cmd="$base -o $outpath/R$r/fastME_JC_$s.tt"
+		$cmd
 	done
 done

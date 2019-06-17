@@ -1,0 +1,48 @@
+#!/bin/bash
+#PBS -N "t4-4"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+
+me="/projects/tallis/ananyay2"
+workdir="$me/reu2019-tutorials"
+inpath="$workdir/4-all/ananyay2/processed-data"
+ctrees="$workdir/tools/compare_trees.py"
+outpath="$workdir/4-all/ananyay2/compare-fastme.csv"
+
+cd $workdir
+
+# just copying off the older one, and I did this there
+module load python
+
+# check if .csv already exists, if so make a new one
+if [ -f $outpath ]; then
+	for i in {1..100}; do
+		if [ ! -f ${outpath::(-4)}$i.csv ]; then
+			outpath=${outpath::(-4)}$i.csv
+			break
+		fi
+	done
+fi
+
+# add the top line
+echo "MODL,REPL,MULT,DIST,TREE,NL,I1,I2,FP,FN,RF" >> $outpath
+
+for r in {0..4}; do
+	folder="$inpath/R$r"
+	for s in "1-0" "0-1" "0-01" "0-05" "0-001" "0-005"; do
+		cmd="python3 $ctrees $workdir/4-all/ananyay2/processed-data/R$r/${s}.tt $folder/fastME_JC_${s}.tt"
+		# this line also executes $cmd. 
+		csv_line="100M3 R$r $s JC NJ "$($cmd >&1)       	
+		
+		#remove commas and put in csv
+		echo ${csv_line// /,} >> $outpath
+	done
+done
+		
+
