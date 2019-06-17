@@ -1,9 +1,5 @@
 #!/bin/bash
-<<<<<<< HEAD
-#PBS -N "tutorial-4-all"
-=======
 #PBS -N "t4-1"
->>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc
 #PBS -W group_list=tallis
 #PBS -q secondary
 #PBS -l nodes=1:ppn=12
@@ -16,15 +12,6 @@
 me="/projects/tallis/ananyay2"
 workdir="$me/reu2019-tutorials"
 alldir="$workdir/4-all/ananyay2"
-<<<<<<< HEAD
-ctrl="$alldir/part1-control.txt"
-
-cd $alldir
-
-cp /projects/tallis/reu2019/software/INDELibleV1.03/src/indelible $alldir
-cp $ctrl control.txt
-
-=======
 ctrl="$alldir/a_control.txt"
 
 cd $alldir
@@ -36,5 +23,4 @@ cp $ctrl control.txt
 
 cp /projects/tallis/reu2019/software/INDELibleV1.03/src/indelible $alldir
 
->>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc
 ./indelible 

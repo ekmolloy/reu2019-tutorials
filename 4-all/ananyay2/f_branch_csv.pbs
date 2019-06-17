@@ -1,0 +1,48 @@
+#!/bin/bash
+#PBS -N "t4-6"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+
+me="/projects/tallis/ananyay2"
+workdir="$me/reu2019-tutorials"
+inpath="$workdir/4-all/ananyay2/processed-data"
+pyscript="$workdir/4-all/ananyay2/f_calc_biparts.py"
+outpath="$workdir/4-all/ananyay2/branch-length.csv"
+
+cd $workdir
+
+# just copying off the older one, and I did this there
+module load python
+
+# check if .csv already exists, if so make a new one
+if [ -f $outpath ]; then
+	for i in {1..100}; do
+		if [ ! -f ${outpath::(-4)}$i.csv ]; then
+			outpath=${outpath::(-4)}$i.csv
+			break
+		fi
+	done
+fi
+
+echo "MODL,REPL,MULT,DIST,TREE,ESTI_LNTH,ESTI_DPTH,TRUE_LNTH,TRUE_DPTH" >> $outpath
+
+for r in `seq -f "R%01g" 0 0`; do
+	for s in "1-0" "0-1" "0-01" "0-05" "0-001" "0-005"; do
+		cmd="python3 $pyscript $inpath/$r/fastME_JC_${s}.tt $inpath/$r/${s}.tt"
+		echo "$cmd"
+		
+		# execute, collect output
+		csv_entry=$($cmd >&1)
+
+		# add commas, add first few columns, and shove into csv file
+		for line in ${csv_entry// /,}; do
+			echo "100M3,R${r},${s},JC,NJ,$line" >> $output
+		done
+	done
+done
