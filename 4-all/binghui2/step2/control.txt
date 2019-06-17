@@ -26,8 +26,8 @@
 [PARTITIONS] p4
 	[tree4 mymodel 100]
 [EVOLVE]
-	p0 1 output00.001
-	p1 1 output10.001
-	p2 1 output20.001
-	p3 1 output30.001
-	p4 1 output40.001
+	p0 1 output/100M3/R0/output_0.001
+	p1 1 output/100M3/R1/output_0.001
+	p2 1 output/100M3/R2/output_0.001
+	p3 1 output/100M3/R3/output_0.001
+	p4 1 output/100M3/R4/output_0.001

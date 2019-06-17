@@ -19,8 +19,8 @@ do
 	for factor in {1.0,0.1,0.05,0.01,0.005,0.001}
 	do
 		cat1="100M3,R$i,$factor,JC,NJ,"
-		pathEst="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/step3/fastme$i+$factor"
-		pathTrue="/projects/tallis/binghui2/reu2019-tutorials/4-all/data/100M3/R$i/rose.mt"
+		pathEst="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/output-data/alignments/fastme$i+$factor"
+		pathTrue="/projects/tallis/binghui2/reu2019-tutorials/4-all/binghui2/output-data/trees/100M3/R$i/factored_trees_$factor"
 		res=$(python pyScript.py -t1 $pathEst -t2 $pathTrue -t3 $i -t4 $factor)
 		echo "$res" >> comparison.csv
 		#output1="$cat1$res"

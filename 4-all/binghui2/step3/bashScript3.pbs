@@ -16,8 +16,8 @@ do
 	for factor in {1.0,0.1,0.05,0.01,0.005,0.001}
 	
 	do
-		name="../step2/output$i${factor}_TRUE.phy" 
-		resfile="fastme$i"+"$factor"
-		fastme-2.1.5-linux64-omp -i $name -o $resfile -m U -d J -T 12
+		name="../step2/output/100M3/R$i/output_${factor}_TRUE.phy" 
+		resfile="../output-data/alignments/fastme$i"+"$factor"
+		fastme-2.1.5-linux64-omp -i $name -o $resfile -m N -d J -T 12 &> $resfile.log
 	done
 done	

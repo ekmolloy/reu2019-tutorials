@@ -1,0 +1,12 @@
+
+ . This analysis will run on 12 threads.
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: Give up this dataset because at least one distance exceeds 5.00.
+
+ . Computing tree...
+
+ . Time used 0h00m01s
