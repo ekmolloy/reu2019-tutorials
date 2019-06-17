@@ -13,7 +13,7 @@ me="/projects/tallis/ananyay2"
 workdir="$me/reu2019-tutorials"
 allpath="$workdir/4-all"
 mypath="$allpath/ananyay2"
-ctrl="$mypath/b-control.txt"
+ctrl="$mypath/b_control.txt"
 outpath="$mypath/processed-data"
 
 cd $mypath
