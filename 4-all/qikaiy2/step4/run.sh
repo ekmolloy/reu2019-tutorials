@@ -1,6 +1,6 @@
 array=('1' '0.1' '0.05' '0.01' '0.005' '0.001')
 h=(' ')
-
+echo MODL REPL MULT DIST TREE NL I1 I2 FP FN RF
 for j in {0..4}
 do
 	for k in {0..5}
