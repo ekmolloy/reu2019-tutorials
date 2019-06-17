@@ -1,0 +1,86 @@
+----------------------------------------
+Begin Torque Prologue (Fri Jun 14 16:57:27 2019)
+Job ID:           8770651.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         run.sh
+Limits:           walltime=00:10:00
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub044
+End Torque Prologue
+----------------------------------------
+
+ . Error: -i option: '../data/align/alignment00_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment01_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment02_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment03_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment04_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment05_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment10_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment11_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment12_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment13_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment14_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment15_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment20_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment21_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment22_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment23_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment24_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment25_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment30_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment31_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment32_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment33_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment34_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment35_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment40_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment41_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment42_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment43_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment44_TRUE.phy' file does not exist.
+
+ . Error: -i option: '../data/align/alignment45_TRUE.phy' file does not exist.
+----------------------------------------
+Begin Torque Epilogue (Fri Jun 14 16:57:27 2019)
+Job ID:           8770651.cc-mgmt1.campuscluster.illinois.edu
+Username:         qikaiy2
+Group:            tallis
+Job Name:         run.sh
+Session:          47477
+Limits:           walltime=00:10:00
+Resources:        cput=00:00:00,vmem=0kb,walltime=00:00:00,mem=0kb,energy_used=0
+Job Queue:        secondary
+Account:          tallis
+Nodes:            golub044
+End Torque Epilogue
+----------------------------------------

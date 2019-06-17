@@ -8,8 +8,7 @@ do
 		echo -n 100M3 R$j ${array[k]} JC NJ 
 		echo -n \ ${h[0]}
 		python3 ../../../tools/compare_trees.py \
-		/projects/tallis/qikaiy2/reu2019-tutorials/data/100M3/R$j/rose.tt \
-		../step3/trees/tree$j$k.tre
+		../../../data/100M3/R$j/rose.tt \
+		../data/tree/tree$j$k.tre
 	done
 done
-
