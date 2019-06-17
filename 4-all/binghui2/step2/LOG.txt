@@ -1,5 +1,9 @@
 ********************************************************************************
+<<<<<<< HEAD
 INDELible V1.03 by Will Fletcher : Simulation began at: Mon Jun 17 11:38:55 2019
+=======
+INDELible V1.03 by Will Fletcher : Simulation began at: Mon Jun 10 16:27:44 2019
+>>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc
 ********************************************************************************
 
   * Block 1 was completed in 0.01 seconds.
@@ -12,7 +16,11 @@ INDELible V1.03 by Will Fletcher : Simulation began at: Mon Jun 17 11:38:55 2019
 ********************************************************************************
 
 
+<<<<<<< HEAD
   * Block 3 was completed in 0.02 seconds.
+=======
+  * Block 3 was completed in 0.01 seconds.
+>>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc
 
 ********************************************************************************
 
@@ -22,6 +30,7 @@ INDELible V1.03 by Will Fletcher : Simulation began at: Mon Jun 17 11:38:55 2019
 ********************************************************************************
 
 
+<<<<<<< HEAD
   * Block 5 was completed in 0.01 seconds.
 
 ********************************************************************************
@@ -29,6 +38,15 @@ INDELible V1.03 by Will Fletcher : Simulation began at: Mon Jun 17 11:38:55 2019
   * Simulation completed. Whole batch took: 0.05 seconds.
 
 INDELible V1.03 Simulations completed at: Mon Jun 17 11:38:55 2019
+=======
+  * Block 5 was completed in 0.02 seconds.
+
+********************************************************************************
+
+  * Simulation completed. Whole batch took: 0.04 seconds.
+
+INDELible V1.03 Simulations completed at: Mon Jun 10 16:27:44 2019
+>>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc
 
 ********************************************************************************
 
@@ -66,8 +84,16 @@ INDELible V1.03 Simulations completed at: Mon Jun 17 11:38:55 2019
 [PARTITIONS] p4
 	[tree4 mymodel 100]
 [EVOLVE]
+<<<<<<< HEAD
 	p0 1 output/100M3/R0/output_0.001
 	p1 1 output/100M3/R1/output_0.001
 	p2 1 output/100M3/R2/output_0.001
 	p3 1 output/100M3/R3/output_0.001
 	p4 1 output/100M3/R4/output_0.001
+=======
+	p0 1 output00.001
+	p1 1 output10.001
+	p2 1 output20.001
+	p3 1 output30.001
+	p4 1 output40.001
+>>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc

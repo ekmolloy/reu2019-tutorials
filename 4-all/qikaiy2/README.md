@@ -27,7 +27,10 @@ and you could write the fastme files to
 - [ ] Write a README file for your data (e.g., `output-data/README.txt`); see example [here](https://databank.illinois.edu/datasets/IDB-1424746)
 - [ ] Tar Gz the `output-data` directory and email it to me. This is what would happen in an actually publication, because I would need to upload this .tar.gz file to the Illinois Data Bank.
 - [ ] In Step 2, you could use if __name__ == "__main__": and functions so that you could re-use this code later. In addition, you could take arguments, for example, `i` or the file could be an input.
+<<<<<<< HEAD
 - [ ] I don't think that you are running neighbor joining in Step 3. I think this should be `-m N`.
+=======
+>>>>>>> 153e70ba472736650aeb5f3ebcbf16cc1674efdc
 - [ ] In Step 3, it would nice if you saved the output of fastme in the same place that you saved the tree.
 ```
 base="/projects/tallis/qikaiy2/reu2019-tutorials/4-all/qikaiy2/output-data/100M3/R$i"

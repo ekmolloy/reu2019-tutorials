@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -N "t4-2"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime="00:20:00"
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+
+me="/projects/tallis/ananyay2"
+workdir="$me/reu2019-tutorials"
+allpath="$workdir/4-all"
+mypath="$allpath/ananyay2"
+ctrl="$mypath/b-control.txt"
+outpath="$mypath/processed-data"
+
+cd $mypath
+
+rm $ctrl
+
+# make the ctrl first
+python3 b_write_control.py $allpath/data/100M3 $outpath >> $ctrl
+
+cp $ctrl control.txt
+
+cp /projects/tallis/reu2019/software/INDELibleV1.03/src/indelible $mypath
+
+
+./indelible
+
+
