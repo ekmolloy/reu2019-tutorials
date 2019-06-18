@@ -63,3 +63,4 @@ def make_plots(axes, df, modl, repls, scales):
         
 make_plots(axes, df, "100M3", ["R0", "R1", "R2", "R3", "R4"], scales)
 plt.savefig("scatterplots.png")
+plt.savefig("scatterplots.pdf")

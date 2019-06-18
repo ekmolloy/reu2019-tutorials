@@ -14,3 +14,4 @@ axes.set_title("100M3 RF rates")
 f=sns.boxplot(x="MULT", y="RF", data=df, ax=axes, width=.4, flierprops={"marker":"o"})
 
 plt.savefig("boxplot.png")
+plt.savefig("boxplot.pdf")
