@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir processed-data output-files
+mkdir processed-data output-files intermediates
 qsub a_run_control.pbs
 
 until [ -f t4-1* ]; do
@@ -35,4 +35,7 @@ qsub f_branch_csv.pbs
 until [ -f t4-6* ]; do
 	sleep 5
 done
+python3 g_scatterplots.py branch-length.csv
+
 mv t4-* cluster-outputs/
+mv *.txt intermediates

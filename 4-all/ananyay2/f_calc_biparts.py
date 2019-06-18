@@ -17,7 +17,7 @@ def calc_depth(tree, edge=None, node=None):
         if node._parent_node is None:
             return 0
         else:
-            return 1 + calc_depth(tree, node=node._parent_node)
+            return node.edge.length + calc_depth(tree, node=node._parent_node)
 
 def calc_length(tree, edge):
     return e.length
