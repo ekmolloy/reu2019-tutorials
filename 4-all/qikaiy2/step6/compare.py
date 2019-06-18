@@ -55,7 +55,7 @@ for m in range(5):
         tree2 = dendropy.Tree.get(path = "/projects/tallis/qikaiy2/reu2019-tutorials/data/100M3/R"+str(m)+"/rose.mt", schema = "newick", rooting = "force-rooted",taxon_namespace=tax)
         tree2 = change(tree2.as_string(schema="newick"), n)
         tree2 = dendropy.Tree.get(data="[&R] " + tree2, schema="newick", rooting = "force-rooted",taxon_namespace=tax)
-        print(tree2.as_string(schema="newick"))
+        #print(tree2.as_string(schema="newick"))
         #----------------------------------------------------------------------
         #From Ph.D. Erin Molloy at University of Illinois at Urbana-Champaign
         lb1 = set([l.taxon.label for l in tree1.leaf_nodes()])
