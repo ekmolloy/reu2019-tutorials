@@ -6,6 +6,23 @@ tax = dendropy.TaxonNamespace()
 # when applying this function, we sgould do as below:
 # python compare.py xxx1.txt xxx2.txt --> result.csv
 # xxx1.txt and xxx2.txt contain trees that we needto compare
+dic = [1, 0.1, 0.05, 0.01, 0.005, 0.001]
+def change(treestring,n):
+    tackle = treestring
+    #print(tackle)
+    tree = dendropy.Tree.get(data=tackle, schema="newick", rooting = "force-rooted")
+    #print(tree.as_string(schema="newick"))
+    for node in tree.preorder_node_iter():
+        if(node.edge.length is None):
+            node.edge.length = 0
+        else:
+            node.edge.length = '%6f' % (dic[n]*float(node.edge.length))
+    final = tree.as_string(schema="newick")
+    #final = final[4:]
+    final = final[4:len(final)-4]
+    final += ";"
+    #print(final)
+    return final
 
 def exist(bi, ls):
     for i in range(len(ls)):
@@ -29,7 +46,6 @@ def get_depth(tree):
 #parser.add_argument("tree2", type=str, help="fastafilename1")
 #args = parser.parse_args()
 
-dic = [1, 0.1, 0.05, 0.01, 0.005, 0.001]
 head = "../data/tree/tree"
 tail = ".tre"
 print "MODL REPL MULT DIST TREE ESTI_LNTH ESTI_DEPTH TRUE_LNTH TRUE_DPTH"
@@ -37,6 +53,9 @@ for m in range(5):
     for n in range(6):
         tree1 = dendropy.Tree.get(path = head+str(m)+str(n)+tail, schema = "newick", rooting = "force-rooted",taxon_namespace=tax)
         tree2 = dendropy.Tree.get(path = "/projects/tallis/qikaiy2/reu2019-tutorials/data/100M3/R"+str(m)+"/rose.mt", schema = "newick", rooting = "force-rooted",taxon_namespace=tax)
+        tree2 = change(tree2.as_string(schema="newick"), n)
+        tree2 = dendropy.Tree.get(data="[&R] " + tree2, schema="newick", rooting = "force-rooted",taxon_namespace=tax)
+        #print(tree2.as_string(schema="newick"))
         #----------------------------------------------------------------------
         #From Ph.D. Erin Molloy at University of Illinois at Urbana-Champaign
         lb1 = set([l.taxon.label for l in tree1.leaf_nodes()])
@@ -56,7 +75,7 @@ for m in range(5):
 
         tree1.update_bipartitions()
         tree2.update_bipartitions()
-#-----------------------------------------------------------------------
+        #-----------------------------------------------------------------------
         edges1 = tree1.internal_edges(exclude_seed_edge=True)
         edges2 = tree2.internal_edges(exclude_seed_edge=True)
         dist1 = get_depth(tree1)
