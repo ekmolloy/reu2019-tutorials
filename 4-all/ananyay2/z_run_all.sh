@@ -1,5 +1,5 @@
 #!/bin/bash
-
+mkdir processed-data output-files
 qsub a_run_control.pbs
 
 until [ -f t4-1* ]; do
