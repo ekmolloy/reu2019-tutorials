@@ -1,0 +1,25 @@
+#NEXUS
+begin data;
+	dimensions ntax=18 nchar=194;
+	format datatype=dna missing=? gap=-;
+matrix
+alectoris_rufa            ---------cgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaacacgggtgacttactattttacatgttttaatgatgcagtat-----------
+catreus_wallichi          --ttttaaacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttt----
+chrysolophus_pictus       ttttttaaacgcacatttctctgctttattgaatgtgacagagtcacgctt-------accattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+crossoptilon_crossoptilon ----------gcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccc--------
+cyrtonyx_montezumae       ----------gcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctt------
+galgal4                   ttttttaaacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+lophophorus_impejanus     ----------gcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+lophura_inornata          ----------gcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatga-------------------
+lophura_nycthemera        -----taaacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+lophura_swinhoii          -------aacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+melgal2                   ttttttaaacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+pavo_cristatus            ttttttaaacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttattgatgcagtatccc--------
+perdix_dauuricae          ttttttaaacgcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+phasianus_colchicus       ---------------tttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtat-----------
+rollulus_rouloul          -------aacgcacatttctctgctttattgaatgtgacagagtcatgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttattattttacatgttttaatgatgcagtatc----------
+syrmaticus_ellioti        ---------------tttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatga-------------------
+syrmaticus_reevesii       ----------gcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatgatgcagtatccctttttaaa
+tragopan_blythii          ----------gcacatttctctgctttattgaatgtgacagagtcacgcttttcattcaccattgcttctctttttccactgtctgtgatttgcttgccaggaggagctactattcttactcctactatctgtaagtagaatacgggtgacttactattttacatgttttaatga-------------------
+;
+end;

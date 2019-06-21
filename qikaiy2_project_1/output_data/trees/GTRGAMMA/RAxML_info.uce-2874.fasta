@@ -1,0 +1,97 @@
+
+
+IMPORTANT WARNING: Sequences lophophorus_impejanus and pavo_cristatus are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ../input_data/aligns/tackle_data/uce-2874.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 61 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.37%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 61
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -T 4 -s ../input_data/aligns/tackle_data/uce-2874.fasta -w /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA -m GTRGAMMA -p 12345 -n uce-2874.fasta 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.214 0.220 0.242 0.324 
+
+
+WARNING the alpha parameter with a value of 12.798613 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 29.598521 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.094238 GAMMA-based likelihood -587.053017, best rearrangement setting 10
+alpha[0]: 29.598521 rates[0] ac ag at cg ct gt: 4.368506 14.921026 1.562452 0.000100 12.417854 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+
+WARNING the alpha parameter with a value of 68.380843 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -587.038468 tree written to file /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_result.uce-2874.fasta
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -587.038468 .... 
+
+Final GAMMA-based Score of best tree -587.038001
+
+Program execution info written to /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_info.uce-2874.fasta
+Best-scoring ML tree written to: /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_bestTree.uce-2874.fasta
+
+Overall execution time: 0.124169 secs or 0.000034 hours or 0.000001 days
+

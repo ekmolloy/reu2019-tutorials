@@ -1,0 +1,72 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 82 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 10.03%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 82
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -T 4 -s ../input_data/aligns/tackle_data/uce-4171.fasta -w /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA -m GTRGAMMA -p 12345 -n uce-4171.fasta 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.280 0.236 0.201 0.284 
+
+Inference[0]: Time 0.084890 GAMMA-based likelihood -671.496392, best rearrangement setting 5
+alpha[0]: 3.403601 rates[0] ac ag at cg ct gt: 0.000100 15.633806 1.948779 8.273991 17.881537 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -671.495582 tree written to file /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_result.uce-4171.fasta
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -671.495582 .... 
+
+Final GAMMA-based Score of best tree -671.495555
+
+Program execution info written to /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_info.uce-4171.fasta
+Best-scoring ML tree written to: /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_bestTree.uce-4171.fasta
+
+Overall execution time: 0.121779 secs or 0.000034 hours or 0.000001 days
+

@@ -1,0 +1,25 @@
+#NEXUS
+begin data;
+	dimensions ntax=18 nchar=216;
+	format datatype=dna missing=? gap=-;
+matrix
+alectoris_rufa            taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+catreus_wallichi          taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+chrysolophus_pictus       taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+crossoptilon_crossoptilon -------------------------------agcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tc-
+cyrtonyx_montezumae       taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+galgal4                   taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+lophophorus_impejanus     taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+lophura_inornata          -----------------------------cgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tc-
+lophura_nycthemera        --------------------------------gcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+lophura_swinhoii          taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+melgal2                   taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctcccctccctcccctcccc
+pavo_cristatus            taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+perdix_dauuricae          taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+phasianus_colchicus       -------------------attttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+rollulus_rouloul          taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+syrmaticus_ellioti        taatagttatccttggaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+syrmaticus_reevesii       ---------tcctttgaggattttccaggcgagcttatctgaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----t--
+tragopan_blythii          ----------------------------------------gaatacaccaacagtcttttttgtaatattcgcatttcccctttggttcagccgagcccactgacagatcattcaaattcaattgttttatgtctaagccgaacagctaattaaagtagggatgattaacctgactggcagtgtcgctctccctccctccctcctccc-----tcc
+;
+end;
