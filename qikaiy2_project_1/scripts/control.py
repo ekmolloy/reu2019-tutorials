@@ -11,7 +11,7 @@ def filter(strr):
         return 0
 
 for i in range(1479):
-    result += "[MODEL]  modelname"+str(i)+"\n [submodel]    JC\n"  
+    result += "[MODEL]  modelname"+str(i)+"\n [submodel]    GTR\n"  
 
 for file in files:
     if(filter(file)==1):
@@ -27,7 +27,7 @@ for file in files:
 i=0
 for file in files:
     if(filter(file)==1):
-        result += "[PARTITIONS]  pJC" + str(i) + " \n" + "[Tree"+ file + " modelname"+str(i)+ " 1000]\n"
+        result += "[PARTITIONS]  pGTR" + str(i) + " \n" + "[Tree"+ file + " modelname"+str(i)+ " 1000]\n"
         i+=1
 
 result += "[EVOLVE] \n"
@@ -35,6 +35,6 @@ result += "[EVOLVE] \n"
 i = 0
 for file in files:
     if(filter(file)==1):
-        result += "pJC"+ str(i) + " 1 " + "/home/qikaiy2/Downloads/qikaiy2_project_1/output_data/aligns/GTRGAMMA/"+ file + "\n"
+        result += "pGTR"+ str(i) + " 1 " + "/home/qikaiy2/Downloads/qikaiy2_project_1/output_data/aligns/GTRGAMMA/"+ file + "\n"
         i += 1
 print(result)
