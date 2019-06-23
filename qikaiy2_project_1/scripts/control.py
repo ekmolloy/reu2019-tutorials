@@ -1,11 +1,11 @@
 import dendropy
 import os
 result = "[TYPE] NUCLEOTIDE 1\n"
-path = "/home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA"
+path = "/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRGAMMA"
 files= os.listdir(path)
 
 def filter(strr):
-    if(strr[0:14]=="RAxML_bestTree"):
+    if((strr[0:14]=="RAxML_bestTree")):
         return 1
     else:
         return 0
