@@ -54,7 +54,7 @@ RAxML was called as follows:
 Partition: 0 with name: No Name Provided
 Base frequencies: 0.247 0.199 0.237 0.317 
 
-Inference[0]: Time 0.039279 CAT-based likelihood -668.837972, best rearrangement setting 5
+Inference[0]: Time 0.036263 CAT-based likelihood -668.837972, best rearrangement setting 5
 alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 5.472892 7.798939 3.635246 0.000100 6.525518 1.000000 
 
 

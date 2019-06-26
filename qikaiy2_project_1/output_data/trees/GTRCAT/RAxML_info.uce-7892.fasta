@@ -58,7 +58,7 @@ Base frequencies: 0.361 0.169 0.254 0.216
 
  BFGS required too many iterations, reverting to Brent-based optimizer
 
-Inference[0]: Time 0.100773 CAT-based likelihood -706.060999, best rearrangement setting 10
+Inference[0]: Time 0.096287 CAT-based likelihood -706.060999, best rearrangement setting 10
 alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 9954.379061 32762.198387 5966.360876 6889.054793 55235.294382 1.000000 
 
 
@@ -74,5 +74,5 @@ Final GAMMA-based Score of best tree -696.227382
 Program execution info written to /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_info.uce-7892.fasta
 Best-scoring ML tree written to: /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_bestTree.uce-7892.fasta
 
-Overall execution time: 0.175368 secs or 0.000049 hours or 0.000002 days
+Overall execution time: 0.164332 secs or 0.000046 hours or 0.000002 days
 

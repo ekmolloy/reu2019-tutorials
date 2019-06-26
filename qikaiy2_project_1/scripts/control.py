@@ -3,8 +3,10 @@ import os
 import decimal
 result = "[TYPE] NUCLEOTIDE 1\n"
 path = "/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT"
+path1 = "/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/R_GTRCAT"
 files= os.listdir(path)
-#The below codes come from this blog and the copyright belongs to the blogger:------------
+# The below codes come from this blog and the copyright belongs to the blogger:
+# https://codeday.me/bug/20171224/112503.html------------
 # create a new context for this task
 ctx = decimal.Context()
 
@@ -72,11 +74,11 @@ i=0
 for file in files:
     if(filter(file)==1 and filter2(file)==1):
         result += "[TREE] Tree" + file+"  "
-        f = open(path+"/"+file,'r')
+        f = open(path1+"/"+file,'r')
         for line in f.readlines():
             line = line.strip()
-            line = line[:len(line)-5]
-            line = line+";"
+            #line = line[:len(line)-5]
+            #line = line+";"
             result += "  " + line.replace('\n','')
         result += "\n"
 
