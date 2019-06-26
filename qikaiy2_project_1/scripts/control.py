@@ -65,7 +65,7 @@ for file in files:
         result += "[MODEL]  modelname"+ str(i) +"\n" \
                 + " [submodel] GTR "+ get_freq(path+"/"+temp) + "\n" \
                 + " [statefreq] " + get_base(path+"/"+temp) + " " + "\n"\
-                + " [indelrate] 0 1 0" +"\n"
+                + " [rates] 0.0 1.0 0" +"\n"
         i += 1
 
 i=0
