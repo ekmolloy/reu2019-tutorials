@@ -13,4 +13,14 @@ workdir="/projects/tallis/ananyay2/ants"
 
 mkdir fastme/original fastme/estimated
 
+for f in indel-out/*; do
+       # do fastme
+done
 
+for f in original-phy/*; do
+       # more fastme
+done
+
+
+
+	
