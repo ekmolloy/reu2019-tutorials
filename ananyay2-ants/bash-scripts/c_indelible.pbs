@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=28
+#PBS -l walltime=03:00:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+echo $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
+workdir="/projects/tallis/ananyay2/ants"
+
+python3 $workdir/tools/make_indelible.py $PBS_O_WORKDIR/RAxML-out $PBS_O_WORKDIR/indel-out/ >> control.txt
+
+./indelible
+
+cd $PBS_O_WORKDIR/indel-out
+mkdir phy fasta
+mv *.phy phy/
+mv *.fas fasta/

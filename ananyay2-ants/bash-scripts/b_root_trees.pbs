@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=28
+#PBS -l walltime=03:00:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+
+workdir="/projects/tallis/ananyay2/ants"
+rooter="$workdir/tools/reroot_midpoint.py"
+
+cp $workdir/tools/sort_raxml.pbs sort_raxml.pbs
+chmod +x sort_raxml.pbs
+./sort_raxml.pbs
+
+module load python
+
+for f in RAxML-out/best-tree/*; do
+	echo ${f:20:(-14)}
+	python3 $rooter $f >> rooted/raxml-rooted-${f:20:(-13)}.phy
+done
+

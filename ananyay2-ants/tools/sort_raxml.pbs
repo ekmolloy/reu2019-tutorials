@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd $PBS_O_WORKDIR/RAxML-out
+
+mkdir best-tree bootstrap bipartitions bipBranchLabels info
+
+mv *bestTree* best-tree/
+mv *bootstrap* bootstrap/
+mv *bipartitionsBranchLabels* bipBranchLabels/
+mv *bipartitions* bipartitions/
+mv *info* info/
