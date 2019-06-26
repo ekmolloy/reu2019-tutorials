@@ -1,0 +1,85 @@
+
+
+IMPORTANT WARNING: Sequences chrysolophus_pictus and lophura_nycthemera are exactly identical
+
+
+IMPORTANT WARNING: Sequences chrysolophus_pictus and lophura_swinhoii are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ../input_data/aligns/tackle_data/uce-4644.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 65 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 5.90%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 65
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -T 4 -s ../input_data/aligns/tackle_data/uce-4644.fasta -w /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA -m GTRGAMMA -p 12345 -n uce-4644.fasta 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.287 0.205 0.190 0.318 
+
+Inference[0]: Time 0.055746 GAMMA-based likelihood -767.563322, best rearrangement setting 5
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 1.465085 4.935174 0.284450 0.647826 7.567679 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -767.563218 tree written to file /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_result.uce-4644.fasta
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -767.563218 .... 
+
+Final GAMMA-based Score of best tree -767.562413
+
+Program execution info written to /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_info.uce-4644.fasta
+Best-scoring ML tree written to: /home/qikaiy2/Downloads/qikaiy2_project_1/output_data/trees/GTRGAMMA/RAxML_bestTree.uce-4644.fasta
+
+Overall execution time: 0.096131 secs or 0.000027 hours or 0.000001 days
+

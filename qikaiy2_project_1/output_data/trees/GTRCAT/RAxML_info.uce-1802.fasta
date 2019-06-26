@@ -1,0 +1,93 @@
+
+
+IMPORTANT WARNING: Sequences catreus_wallichi and lophura_nycthemera are exactly identical
+
+
+IMPORTANT WARNING: Sequences catreus_wallichi and melgal2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences chrysolophus_pictus and lophura_swinhoii are exactly identical
+
+
+IMPORTANT WARNING: Sequences chrysolophus_pictus and tragopan_blythii are exactly identical
+
+IMPORTANT WARNING
+Found 4 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file ../input_data/aligns/tackle_data/uce-1802.fasta.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 37 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 7.80%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 37
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -T 4 -s ../input_data/aligns/tackle_data/uce-1802.fasta -w /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT -m GTRCAT -V -p 12345 -n uce-1802.fasta 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.270 0.157 0.234 0.340 
+
+Inference[0]: Time 0.109711 CAT-based likelihood -448.797913, best rearrangement setting 10
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 7241.262982 34099.158158 0.000100 0.000158 9059.244597 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -448.216165 tree written to file /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_result.uce-1802.fasta
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -448.216165 .... 
+
+Final GAMMA-based Score of best tree -448.216165
+
+Program execution info written to /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_info.uce-1802.fasta
+Best-scoring ML tree written to: /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_bestTree.uce-1802.fasta
+
+Overall execution time: 0.160518 secs or 0.000045 hours or 0.000002 days
+
