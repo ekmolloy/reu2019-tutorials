@@ -64,7 +64,8 @@ for file in files:
         get_freq(path+"/"+temp)
         result += "[MODEL]  modelname"+ str(i) +"\n" \
                 + " [submodel] GTR "+ get_freq(path+"/"+temp) + "\n" \
-                + " [statefreq] " + get_base(path+"/"+temp) + " " + "\n" 
+                + " [statefreq] " + get_base(path+"/"+temp) + " " + "\n"\
+                + " [indelrate] 0 1 0" +"\n"
         i += 1
 
 i=0
