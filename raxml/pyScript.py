@@ -48,7 +48,7 @@ def main(args):
 	file.write("[TYPE] NUCLEOTIDE 1\n")
 	file.write("[MODEL] mymodel\n")
 	[baseArray,orderArray] = InfoParser(infoPath)
-	file.write("\t[submodel] GTR %s %s %s %s %s %s\n"%(orderArray[0],orderArray[1],orderArray[2],orderArray[3],orderArray[4],orderArray[5]))
+	file.write("\t[submodel] GTR %s %s %s %s %s\n"%(orderArray[0],orderArray[1],orderArray[2],orderArray[3],orderArray[4]))
 	file.write("\t[statefreq] %s %s %s %s\n"%(baseArray[1],baseArray[2],baseArray[3],baseArray[4]))
 	file.write("[TREE] tree1 %s"%(contents))
 	file.write("[PARITITIONS] p0\n")
