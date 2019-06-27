@@ -14,6 +14,6 @@ outgroup_leaves = ["Atta_cephalotes_Genome", "Camponotus_floridanus_Genome","Car
 mrca = tree.mrca(taxon_labels=outgroup_leaves)
 if mrca is not None:
     tree.reroot_at_edge(mrca.edge, update_bipartitions=True)
-else
+else:
     tree.reroot_at_midpoint(update_bipartitions=True)
 print(tree.as_string(schema="newick"))

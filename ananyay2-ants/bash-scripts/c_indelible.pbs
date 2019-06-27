@@ -9,7 +9,7 @@
 
 echo $PBS_O_WORKDIR
 cd $PBS_O_WORKDIR
-workdir="/projects/tallis/ananyay2/ants"
+workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 
 python3 $workdir/tools/make_indelible.py $PBS_O_WORKDIR/RAxML-out $PBS_O_WORKDIR/indel-out/ >> control.txt
 

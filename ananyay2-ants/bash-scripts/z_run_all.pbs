@@ -8,15 +8,15 @@
 #PBS -M ananyay2@illinois.edu
 #PBS -m be
 
-workdir="/projects/tallis/ananyay2/ants"
+workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 seqtools="$workdir/tools/seqtools.py"
 bashloc="$workdir/bash-scripts"
 
 cd $workdir
 
 start_set=0
-num_sets=1
-num_per_sets=1
+num_sets=16
+num_per_sets=15
 
 module load python
 
@@ -39,8 +39,7 @@ for (( i=${start_set}; i<${num_sets}; i++ )); do
 
 	# write and execute RAxML bash scripts
 	cp $bashloc/a_raxml.pbs a_raxml.pbs
-	raxml=8875877
-	#`qsub -N raxml-$i a_raxml.pbs`
+	raxml=`qsub -N raxml-$i a_raxml.pbs`
 
        	# root trees 
 	cp $bashloc/b_root_trees.pbs b_root_trees.pbs
@@ -57,7 +56,7 @@ for (( i=${start_set}; i<${num_sets}; i++ )); do
 	  done
 	  # fastme, analysis, and cleanup
 	  cp $bashloc/d_fastme_compare.pbs d_fastme_compare.pbs
-	  fastme=`qsub -N fastme-$i -W depend=afterany:$indelible d_fastme.pbs`
+	  fastme=`qsub -N fastme-$i -W depend=afterany:$indelible d_fastme_compare.pbs`
 
 	# cleanup
 	# cp $bashloc/e_cleanup.pbs e_cleanup.pbs

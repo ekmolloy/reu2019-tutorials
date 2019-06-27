@@ -9,7 +9,7 @@
 
 echo $PBS_O_WORKDIR
 
-workdir="/projects/tallis/ananyay2/ants"
+workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 
 cd $PBS_O_WORKDIR/RAxML-out
 

@@ -54,7 +54,7 @@ def tree(files):
         tree = ""
         with open(input_loc+"/best-tree/" + f, 'r') as content_file:
             tree = content_file.read()
-        print("[TREE] T%s %s"%(get_num(f), tree[:-6]+";"))
+        print("[TREE] T%s %s\n"%(get_num(f), tree[:-6]+";"))
 
 def model_submodel(files):
     for f in files:
@@ -69,9 +69,10 @@ def partitions(files):
         print("[PARTITIONS] p%u\n[T%u m%u 1000]"%(tree_num,tree_num,tree_num))
 
 def evolutions(files, end_folder):
+    print("\n[EVOLVE]")
     for f in files:
         tree_num = get_num(f)
-        print("[EVOLVE] p%s 1 %sindelible-%s"%(tree_num, end_folder, tree_num))
+        print("\np%s 1 %sindelible-%s"%(tree_num, end_folder, tree_num))
 
 def make_control_file(files, end_folder):
     num_reps = len(files)

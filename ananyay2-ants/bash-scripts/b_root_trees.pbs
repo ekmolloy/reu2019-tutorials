@@ -9,7 +9,7 @@
 
 cd $PBS_O_WORKDIR
 
-workdir="/projects/tallis/ananyay2/ants"
+workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 rooter="$workdir/tools/reroot_outgroup.py"
 
 cp $workdir/tools/sort_raxml.pbs sort_raxml.pbs

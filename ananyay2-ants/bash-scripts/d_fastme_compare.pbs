@@ -9,23 +9,15 @@
 
 cd $PBS_O_WORKDIR
 
-workdir="/projects/tallis/ananyay2/ants"
+workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 
 for f in indel-out/phy*; do
        # do fastme
-       fastme-2.1.5-linux64-omp \ 
-       -i $f \ 
-       -d p \ 
-       -T 28 \ 
-       -O fastme/${f:10:(-9)}_est.m
+       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O fastme/${f:10:(-9)}_est.m
 done
 
 for f in original-phy/*; do
-       fastme-2.1.5-linux64-omp \ 
-       -i $f \ 
-       -d p \ 
-       -T 28 \ 
-       -O fastme/${f:4:(-21)}_or.m
+       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O fastme/${f:4:(-21)}_or.m
        # more fastme
 done
 
