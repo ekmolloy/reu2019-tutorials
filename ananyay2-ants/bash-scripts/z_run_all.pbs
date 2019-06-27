@@ -27,7 +27,7 @@ for (( i=${start_set}; i<${num_sets}; i++ )); do
 	mkdir environment-${i} 
 	cp tools/indelible environment-${i}/
 	cd environment-${i}
-	mkdir original bash-scripts RAxML-out rooted indel-out fastme-out matrices original-phy
+	mkdir original bash-scripts RAxML-out rooted indel-out matrices original-phy
 
 
 	# fill original folder
