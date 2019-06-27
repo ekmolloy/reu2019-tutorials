@@ -73,7 +73,7 @@ RAxML was called as follows:
 Partition: 0 with name: No Name Provided
 Base frequencies: 0.292 0.195 0.202 0.311 
 
-Inference[0]: Time 0.077002 CAT-based likelihood -889.339813, best rearrangement setting 10
+Inference[0]: Time 0.062810 CAT-based likelihood -889.339813, best rearrangement setting 10
 alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 2.558839 6.583010 0.519826 2.426519 7.062483 1.000000 
 
 
@@ -89,5 +89,5 @@ Final GAMMA-based Score of best tree -884.827736
 Program execution info written to /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_info.uce-3893.fasta
 Best-scoring ML tree written to: /home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/output_data/trees/GTRCAT/RAxML_bestTree.uce-3893.fasta
 
-Overall execution time: 0.148473 secs or 0.000041 hours or 0.000002 days
+Overall execution time: 0.113393 secs or 0.000031 hours or 0.000001 days
 
