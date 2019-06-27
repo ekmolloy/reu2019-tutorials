@@ -1,0 +1,97 @@
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_lutea_ku89864 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_rubriceps_lsu34818 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku4970 and piranga_rubra_sdsu2654 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku4970 and piranga_olivacea_ku4672 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku4970 and piranga_rubra_sdsu2635 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm160 and piranga_bidentata_tepe59 are exactly identical
+
+IMPORTANT WARNING
+Found 6 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file uce_phylip/uce-4837.nexus.phylip.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 83 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 7.98%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 83
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s uce_phylip/uce-4837.nexus.phylip -p 12345 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/RAxML_Results/uce-4837 -m GTRGAMMA -T 12 -n uce-4837 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.317 0.180 0.206 0.297 
+
+Inference[0]: Time 0.346734 GAMMA-based likelihood -1652.790602, best rearrangement setting 5
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 0.000100 308.489631 0.000100 49.511512 171.336981 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1652.790602 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/RAxML_Results/uce-4837/RAxML_result.uce-4837
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -1652.790602 .... 
+
+Final GAMMA-based Score of best tree -1652.789671
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/RAxML_Results/uce-4837/RAxML_info.uce-4837
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/RAxML_Results/uce-4837/RAxML_bestTree.uce-4837
+
+Overall execution time: 0.593879 secs or 0.000165 hours or 0.000007 days
+
