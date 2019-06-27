@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=28
+#PBS -l walltime=03:00:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+echo $PBS_O_WORKDIR
+
+workdir="/projects/tallis/ananyay2/ants"
+
+cd $PBS_O_WORKDIR/RAxML-out
+
+for f in ../original/*; do
+	number=${f:16:(-21)}
+	raxmlHPC-PTHREADS-SSE3 -T 19 -m GTRGAMMA -f a -# 200 -p 12345 -x 12345 -s $f -n raxml-$number-out.phylip
+done
+
+
+
+

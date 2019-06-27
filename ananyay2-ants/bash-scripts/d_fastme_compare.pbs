@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=28
+#PBS -l walltime=03:00:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+
+workdir="/projects/tallis/ananyay2/ants"
+
+mkdir fastme/original fastme/estimated
+
+for f in indel-out/*; do
+       # do fastme
+done
+
+for f in original-phy/*; do
+       # more fastme
+done
+
+
+
+	

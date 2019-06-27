@@ -1,0 +1,67 @@
+#!/bin/bash
+#PBS -N "s-jobs"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=02:00:00
+#PBS -j oe
+#PBS -M ananyay2@illinois.edu
+#PBS -m be
+
+workdir="/projects/tallis/ananyay2/ants"
+seqtools="$workdir/tools/seqtools.py"
+bashloc="$workdir/bash-scripts"
+
+cd $workdir
+
+start_set=0
+num_sets=1
+num_per_sets=1
+
+module load python
+
+for (( i=${start_set}; i<${num_sets}; i++ )); do
+	cd $workdir
+
+	# setup environment
+	mkdir environment-${i} 
+	cp tools/indelible environment-${i}/
+	cd environment-${i}
+	mkdir original bash-scripts RAxML-out rooted indel-out fastme-out matrices original-phy
+
+
+	# fill original folder
+	startpt=$i*${num_per_sets}
+	for (( j=0; j<${num_per_sets}; j++ )); do
+		files=( $workdir/ant-data/Aligned_trimmed/* )
+		cp ${files[$((startpt+j))]} original/
+	done
+
+	# write and execute RAxML bash scripts
+	cp $bashloc/a_raxml.pbs a_raxml.pbs
+	raxml=8875877
+	#`qsub -N raxml-$i a_raxml.pbs`
+
+       	# root trees 
+	cp $bashloc/b_root_trees.pbs b_root_trees.pbs
+	root=`qsub -N roottrees-$i -W depend=afterany:$raxml b_root_trees.pbs`
+
+	# write and execute indelible
+	cp $bashloc/c_indelible.pbs c_indelible.pbs
+	indelible=`qsub -N indelible-$i -W depend=afterany:$root c_indelible.pbs`
+
+	# run fastME(both) and compare
+	  # switch original files to .phy
+	  for f in original/*; do
+		  python3 $seqtools -f p -i $f -o original-phy/${f:9:(-6)}.phy
+	  done
+	  # fastme, analysis, and cleanup
+	  cp $bashloc/d_fastme_compare.pbs d_fastme_compare.pbs
+	  fastme=`qsub -N fastme-$i -W depend=afterany:$indelible d_fastme.pbs`
+
+	# cleanup
+	# cp $bashloc/e_cleanup.pbs e_cleanup.pbs
+	# qsub -N cleanup-$i -W depend=afterany:$fastme e_cleanup.pbs
+
+done
+
