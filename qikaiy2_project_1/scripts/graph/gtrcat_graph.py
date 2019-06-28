@@ -91,7 +91,7 @@ for i in range(5):
     plt.figure(i+1)
     plt.figure(figsize=(200,100))
     for j in range(4):
-        plt.subplot(2,2,j+1)
+        haha = plt.subplot(2,2,j+1)
         plt.boxplot(box_array[int((i*4+j)*len(box_array)/20):int(((i*4+j)+1)*len(box_array)/20)],sym = 'o', \
         vert = True,\
         patch_artist = True,\
@@ -103,13 +103,14 @@ for i in range(5):
         plt.xticks([])
         plt.xlabel("Data set "+str((i*4+j)+1))
         plt.ylabel("Distance errors")
+        haha.yaxis.grid(True)
     plt.suptitle("Data sets from " + str(i*4+1) + " to " + str(str(i*4+4)+" without outliers"))
 
 for i in range(5):
     plt.figure(i+6)
     plt.figure(figsize=(200,100))
     for j in range(4):
-        plt.subplot(2,2,j+1)
+        haha = plt.subplot(2,2,j+1)
         plt.boxplot(box_array[int((i*4+j)*len(box_array)/20):int(((i*4+j)+1)*len(box_array)/20)],sym = 'o', \
         vert = True,\
         patch_artist = True,\
@@ -120,6 +121,7 @@ for i in range(5):
         plt.xticks([])
         plt.xlabel("Data set "+str((i*4+j)+1))
         plt.ylabel("Distance errors")
+        haha.yaxis.grid(True)
     plt.suptitle("Data sets from " + str(i*4+1) + " to " + str(str(i*4+4)+" without"))
 
 plt.show()
