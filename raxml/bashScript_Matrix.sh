@@ -1,3 +1,9 @@
 #!/bin/bash
-fastme-2.1.5-linux64 -i EstimatedSeq_TRUE.phy -O results/estimatedMatrix.txt -d p
-fastme-2.1.5-linux64 -i ../astral/genePHYLIPs/292RBBH_TRINITY_DN72_c0_g1_i1.phy -O results/trueMatrix -d p
+resPath="/projects/tallis/binghui2/reu2019-tutorials/raxml/EstimatedSeq/"
+for dir in EstimatedSeq/*
+do
+	filename=$(echo $dir | cut -d'/' -f 2)
+	treePath="$resPath$filename"
+	fastme-2.1.5-linux64 -i $treePath/Estimated_TRUE.phy -O $treePath/estimatedMatrix.txt -d p
+	fastme-2.1.5-linux64 -i uce_phylip/$filename.nexus.phylip -O $treePath/trueMatrix.txt -d p
+done
