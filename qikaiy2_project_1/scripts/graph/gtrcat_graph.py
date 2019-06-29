@@ -101,10 +101,10 @@ for i in range(5):
         showcaps = True,\
         showfliers=False)
         plt.xticks([])
-        plt.xlabel("Data set "+str((i*4+j)+1))
+        plt.xlabel("Data set Part "+str((i*4+j)+1))
         plt.ylabel("Distance errors")
         haha.yaxis.grid(True)
-    plt.suptitle("Data sets from " + str(i*4+1) + " to " + str(str(i*4+4)+" without outliers"))
+    plt.suptitle("Data set Parts from " + str(i*4+1) + " to " + str(str(i*4+4)+" without outliers"))
 
 for i in range(5):
     plt.figure(i+6)
@@ -119,9 +119,9 @@ for i in range(5):
         showbox = True,\
         showcaps = True)
         plt.xticks([])
-        plt.xlabel("Data set "+str((i*4+j)+1))
+        plt.xlabel("Data set Part "+str((i*4+j)+1))
         plt.ylabel("Distance errors")
         haha.yaxis.grid(True)
-    plt.suptitle("Data sets from " + str(i*4+1) + " to " + str(str(i*4+4)+" without"))
+    plt.suptitle("Data sets Parts from " + str(i*4+1) + " to " + str(str(i*4+4)+" without"))
 
 plt.show()
