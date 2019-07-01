@@ -22,3 +22,5 @@ cp indel-out/* $datadir/indel-out
 
 cp -rf matrices/* $datadir/matrices
 cp matrices/* $datadir/matrices
+
+paste -d distances.csv > $workdir/distances.csv
