@@ -15,7 +15,7 @@ bashloc="$workdir/bash-scripts"
 cd $workdir
 
 start_set=0
-num_sets=16
+num_sets=2
 num_per_sets=15
 
 module load python
@@ -57,10 +57,5 @@ for (( i=${start_set}; i<${num_sets}; i++ )); do
 	  # fastme, analysis, and cleanup
 	  cp $bashloc/d_fastme_compare.pbs d_fastme_compare.pbs
 	  fastme=`qsub -N fastme-$i -W depend=afterany:$indelible d_fastme_compare.pbs`
-
-	# cleanup
-	# cp $bashloc/e_cleanup.pbs e_cleanup.pbs
-	# qsub -N cleanup-$i -W depend=afterany:$fastme e_cleanup.pbs
-
 done
 

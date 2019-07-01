@@ -12,8 +12,19 @@ for f in os.listdir(os.fsencode(directory)):
         repnums.append(f[:-6])
 
 for repnum in repnums:
-    original = np.array([s.split() for s in open(directory+str(repnum) + "_or.m", 'r')])
-    estimated = np.array([s.split() for s in open(directory+str(repnum) + "_est.m", 'r')])
+    original = [s.split() for s in open(directory +"/"+str(repnum) + "_or.m", 'r')]
+    estimated = [s.split() for s in open(directory+"/"+str(repnum) + "_est.m", 'r')]
+
+    # remove the empty rows
+    del original[-1]
+    del original[0]
+    del estimated[0]
+    del estimated[-1]
+
+    # make into np array
+    original=np.array(original)
+    estimated=np.array(estimated)
+
     o_cols = original[:,0]
     est_cols = estimated[:,0]
     

@@ -14,17 +14,17 @@ workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 for f in indel-out/phy/*; do
        # do fastme
        echo $f
-       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O $PBS_O_WORKDIR/matrices/${f:20:(-9)}_est.m
+       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O $PBS_O_WORKDIR/matrices/${f:24:(-9)}_est.m
 done
 
 for f in original-phy/*; do
 	echo $f
-	fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O $PBS_O_WORKDIR/matrices/${f:8:(-21)}_or.m
+	fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O $PBS_O_WORKDIR/matrices/${f:17:(-21)}_or.m
        # more fastme
 done
 
 # compare trees
-python3 $workdir/tools/make-distances-csv.py $PBS_O_WORKDIR/matrices
+python3 $workdir/tools/make-distances-csv.py $PBS_O_WORKDIR/matrices >> distances.csv
 
 # cleanup
 cp $workdir/tools/cleanup.pbs cleanup.pbs
