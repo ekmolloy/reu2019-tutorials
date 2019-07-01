@@ -9,12 +9,12 @@
 #	mycommand="./raxmlHPC-PTHREADS-SSE3 -s $file -p 12345 -w $resPath -m GTRGAMMA -T 8 -n $filename"
 #	eval $mycommand
 #done
-resPath="/projects/tallis/binghui2/reu2019-tutorials/raxml/RAxML_Results"
+resPath="/projects/tallis/binghui2/reu2019-tutorials/raxml/Rooted_Results"
 for file in uce_phylip/*
 do 
 	filename=$(echo $file | cut -d'.' -f 1)
 	realname=$(echo $filename | cut -d'/' -f 2)
-	mycommand="./raxmlHPC-PTHREADS-SSE3 -s $file -p 12345 -w $resPath/$realname -m GTRGAMMA -T 12 -n $realname"
-	eval $mycommand
-	#mkdir $resPath/$realname
+	#mycommand="./raxmlHPC-PTHREADS-SSE3 -s $file -p 12345 -w $resPath/$realname -m GTRGAMMA -T 12 -n $realname"
+	#eval $mycommand
+	mkdir $resPath/$realname
 done
