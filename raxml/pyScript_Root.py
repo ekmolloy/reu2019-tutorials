@@ -5,7 +5,7 @@ import dendropy
 
 def rootTree(inputTree):
 	mrca = inputTree.mrca(taxon_labels=["cardinalis cardinalis ku21828", "cardinalis cardinalis ku25393"])
-	inputTree.reroot_at_node(mrca, update_bipartitions=False)
+	inputTree.reroot_at_edge(mrca.edge, update_bipartitions=False)
 	return inputTree
     #inputTree.to_outgroup_position()
 
