@@ -3,7 +3,7 @@
 #PBS -W group_list=tallis
 #PBS -q secondary
 #PBS -l nodes=1:ppn=12
-#PBS -l walltime=02:00:00
+#PBS -l walltime=00:05:00
 #PBS -j oe
 #PBS -M ananyay2@illinois.edu
 #PBS -m be
@@ -14,8 +14,8 @@ bashloc="$workdir/bash-scripts"
 
 cd $workdir
 
-start_set=0
-num_sets=2
+start_set=2
+num_sets=18
 num_per_sets=15
 
 module load python
@@ -59,3 +59,4 @@ for (( i=${start_set}; i<${num_sets}; i++ )); do
 	  fastme=`qsub -N fastme-$i -W depend=afterany:$indelible d_fastme_compare.pbs`
 done
 
+echo "A,B,ORIG_DIST,EST_DIST" >> $workdir/distances.csv

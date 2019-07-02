@@ -1,8 +1,8 @@
 #!/bin/bash
 #PBS -W group_list=tallis
 #PBS -q secondary
-#PBS -l nodes=1:ppn=28
-#PBS -l walltime=03:00:00
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:30:00
 #PBS -j oe
 #PBS -M ananyay2@illinois.edu
 #PBS -m be
