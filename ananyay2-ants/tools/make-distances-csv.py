@@ -34,4 +34,9 @@ for repnum in repnums:
             o_colname=o_cols[col-1]
             e_rownum=np.where(est_cols == o_rowname)[0][0]
             e_colnum=np.where(est_cols == o_colname)[0][0] + 1
-            print(o_rowname+","+ o_colname+","+original[row,col]+","+estimated[e_rownum,e_colnum])
+            if o_rowname > o_colname:
+                print(o_rowname+","+ o_colname+","+original[row,col]+","+estimated[e_rownum,e_colnum])
+            else:
+                print(o_colname+","+ o_rowname+","+original[row,col]+","+estimated[e_rownum,e_colnum])
+
+print("\n")
