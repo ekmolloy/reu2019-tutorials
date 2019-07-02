@@ -1,14 +1,12 @@
 #!/bin/bash
 
-echo "ACHIEVED"
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 cd $DIR
 
 workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 datadir="$workdir/my-data"
-
+mkdir $datadir
 mkdir $datadir/RAxML-out $datadir/rooted $datadir/indel-out $datadir/matrices
 
 cp -rf RAxML-out/* $datadir/RAxML-out 
@@ -22,3 +20,5 @@ cp indel-out/* $datadir/indel-out
 
 cp -rf matrices/* $datadir/matrices
 cp matrices/* $datadir/matrices
+
+cat distances.csv >> $workdir/distances.csv

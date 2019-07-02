@@ -1,8 +1,8 @@
 #!/bin/bash
 #PBS -W group_list=tallis
 #PBS -q secondary
-#PBS -l nodes=1:ppn=28
-#PBS -l walltime=03:00:00
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:30:00
 #PBS -j oe
 #PBS -M ananyay2@illinois.edu
 #PBS -m be
@@ -11,17 +11,20 @@ cd $PBS_O_WORKDIR
 
 workdir="/projects/tallis/ananyay2/reu2019-tutorials/ananyay2-ants"
 
-for f in indel-out/phy*; do
+for f in indel-out/phy/*; do
        # do fastme
-       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O fastme/${f:10:(-9)}_est.m
+       echo $f
+       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O $PBS_O_WORKDIR/matrices/${f:24:(-9)}_est.m
 done
 
 for f in original-phy/*; do
-       fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O fastme/${f:4:(-21)}_or.m
+	echo $f
+	fastme-2.1.5-linux64-omp -i $f -d p -T 28 -O $PBS_O_WORKDIR/matrices/${f:17:(-21)}_or.m
        # more fastme
 done
 
 # compare trees
+python3 $workdir/tools/make-distances-csv.py $PBS_O_WORKDIR/matrices >> distances.csv
 
 # cleanup
 cp $workdir/tools/cleanup.pbs cleanup.pbs

@@ -8,7 +8,12 @@ tree = dendropy.Tree.get(
     rooting="default-unrooted"
 )
 
-outgroup_leaves = ["Atta_cephalotes_Genome", "Camponotus_floridanus_Genome","Cardiocondyla_obscurior_Genome","Linepithema_humile_Genome","Pogonomyrmex_barbatus_Genome", "Solenopsis_invicta_Genome","Vollenhovia_emeryi_Genome"]
+outgroup_leaves = ["Atta cephalotes Genome", "Camponotus floridanus Genome","Cardiocondyla obscurior Genome","Linepithema humile Genome","Pogonomyrmex barbatus Genome", "Solenopsis invicta Genome","Vollenhovia emeryi Genome", "Harpegnathos saltator Genome"]
+
+# don't look for leaves that aren't there
+for l in outgroup_leaves:
+    if tree.find_node_with_taxon_label(l) is None:
+        outgroup_leaves.remove(l)
 
 # since dendropy implements mrca by looking at bipartitions this is an okay thing to do 
 mrca = tree.mrca(taxon_labels=outgroup_leaves)
