@@ -14,7 +14,7 @@ for file in uce_phylip/*
 do 
 	filename=$(echo $file | cut -d'.' -f 1)
 	realname=$(echo $filename | cut -d'/' -f 2)
-	#mycommand="./raxmlHPC-PTHREADS-SSE3 -s $file -p 12345 -w $resPath/$realname -m GTRGAMMA -T 12 -n $realname"
-	#eval $mycommand
-	mkdir $resPath/$realname
+	mycommand="./raxmlHPC-PTHREADS-SSE3 -s $file -p 12345 -w $resPath/$realname -m GTRGAMMA -T 12 -n $realname"
+	eval $mycommand
+	#mkdir $resPath/$realname
 done
