@@ -9,6 +9,6 @@ do
 	info_filename="RAxML_info.$dir_name"
 	tree_filename="RAxML_bestTree.$dir_name"
 	python3 pyScript.py -i $info_pathname/$info_filename -t $tree_pathname/$tree_filename -o $dir_name
-	./indelible control.txt
+	./indelible $tree_pathname/control.txt
 	#echo $dir_name
 done

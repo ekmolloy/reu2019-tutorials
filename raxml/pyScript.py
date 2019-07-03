@@ -43,7 +43,17 @@ def branch_lengths_2_decimals(str_newick_tree):
 ####which is the combination of the following 2 sources
 ####source1:https://codeday.me/bug/20171224/112503.html
 ####source2:https://github.com/faircloth-lab/phyluce/blob/master/bin/genetrees/phyluce_genetrees_phybase
-
+def sumToOne(baseArray):
+	total = 0
+	for i in range(4):
+		total += float(baseArray[i+1])
+	if total == 1:
+		return baseArray
+	else:
+		factor = 1/total
+		for i in range(4):
+			baseArray[i+1] = float(baseArray[i+1])*factor
+		return baseArray
 
 
 
@@ -77,6 +87,7 @@ def InfoParser(infoPath):
 		if "Base frequencies" in list[0]:
 			freqlist = list[1].split(" ")
 			baseArray = np.asarray(freqlist)
+			baseArray = sumToOne(baseArray)
 			#baseArray = list[1]
 			base = False
 	return (baseArray,orderArray) 
@@ -84,11 +95,12 @@ def InfoParser(infoPath):
     #return None
 
 def main(args):
-	
+	resPath = "/projects/tallis/binghui2/reu2019-tutorials/raxml/RAxML_Results"	
 	inputTree = dendropy.Tree.get(path=args.tree,schema="newick")
 	mrca = inputTree.mrca(taxon_labels=["cardinalis cardinalis ku21828", "cardinalis cardinalis ku25393"])
 	inputTree.reroot_at_node(mrca, update_bipartitions=False)
 	treeString = "%s"%(inputTree)
+	#print(treeString)
 	treeString = branch_lengths_2_decimals(treeString)
 	#contents = inputTree.as_string(format="newick")
 	#treePath = args.tree
@@ -97,7 +109,7 @@ def main(args):
 	infoPath = args.info
 	output_name = args.output_name
 	
-	file = open("control.txt","w")
+	file = open("%s/%s/control.txt"%(resPath,output_name),"w+")
 	file.write("[TYPE] NUCLEOTIDE 1\n")
 	file.write("[MODEL] mymodel\n")
 	[baseArray,orderArray] = InfoParser(infoPath)
