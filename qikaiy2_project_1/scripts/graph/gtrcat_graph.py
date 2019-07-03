@@ -54,6 +54,8 @@ def change_address(address):
 box_array = []
 mean_array = []
 median_array = []
+origin_array = []
+simulated_array = []
 x = np.arange(1479)
 #x = x*0.1
 print(x)
@@ -78,14 +80,26 @@ for path,dir_list,file_list in g:
         box_array.append(temp)
         mean_array.append(np.mean(temp))
         median_array.append(np.median(temp))
+        temp = []
+        for i in range(len(before_)):
+            for j in range(i+1, len(before_[0])):
+                temp.append(before_[i][j])
+        origin_array.append(temp)
+        temp = []
+        for i in range(len(after_)):
+            for j in range(i+1, len(after_[0])):
+                temp.append(after_[i][j])
+        simulated_array.append(temp)
+
 #--
 plt.figure(figsize=(200,100))
 plt.plot(x,mean_array,color="red")
 plt.plot(x,median_array,color="blue")
-plt.ylabel("Distance errors")
+plt.ylabel("Distance Differences")
 plt.xlabel("1479 Data Sets")
 plt.title("Distance errors of 1479 data sets")
-plt.legend(["mean error values","median error values"])
+plt.legend(["mean values of differences","median values of differences"])
+plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/mean_median_line.png')
 #--
 for i in range(5):
     plt.figure(i+1)
@@ -102,9 +116,10 @@ for i in range(5):
         showfliers=False)
         plt.xticks([])
         plt.xlabel("Data set Part "+str((i*4+j)+1))
-        plt.ylabel("Distance errors")
+        plt.ylabel("Distance Differences")
         haha.yaxis.grid(True)
-    plt.suptitle("Data set Parts from " + str(i*4+1) + " to " + str(str(i*4+4)+" without outliers"))
+    plt.suptitle("Distance Differences on Data Sets (from Part " + str(i*4+1) + " to Part " + str(str(i*4+4)+") without Outliers"))
+    #plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/dist_diff_without'+str(i+1)+'.png')
 
 for i in range(5):
     plt.figure(i+6)
@@ -120,8 +135,87 @@ for i in range(5):
         showcaps = True)
         plt.xticks([])
         plt.xlabel("Data set Part "+str((i*4+j)+1))
-        plt.ylabel("Distance errors")
+        plt.ylabel("Distance Differences")
         haha.yaxis.grid(True)
-    plt.suptitle("Data sets Parts from " + str(i*4+1) + " to " + str(str(i*4+4)+" without"))
+    plt.suptitle("Distance Differences on Data Sets (from Part " + str(i*4+1) + " to Part " + str(str(i*4+4)+") with Outliers"))
+    #plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/dist_diff_with'+str(i+6)+'.png')
+
+for i in range(5):
+    plt.figure(i+11)
+    plt.figure(figsize=(200,100))
+    for j in range(4):
+        haha = plt.subplot(2,2,j+1)
+        plt.boxplot(origin_array[int((i*4+j)*len(origin_array)/20):int(((i*4+j)+1)*len(origin_array)/20)],sym = 'o', \
+        vert = True,\
+        patch_artist = True,\
+        meanline = False,\
+        showmeans = True,\
+        showbox = True,\
+        showcaps = True,\
+        showfliers=False)
+        plt.xticks([])
+        plt.xlabel("Data set Part "+str((i*4+j)+1))
+        plt.ylabel("Original Data set's Distances")
+        haha.yaxis.grid(True)
+    plt.suptitle("Distances of Original Data Sets (from " + str(i*4+1) + " to " + str(str(i*4+4)+") without Outliers"))
+    #plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/orig_dist_without'+str(i+11)+'.png')
+
+for i in range(5):
+    plt.figure(i+16)
+    plt.figure(figsize=(200,100))
+    for j in range(4):
+        haha = plt.subplot(2,2,j+1)
+        plt.boxplot(origin_array[int((i*4+j)*len(origin_array)/20):int(((i*4+j)+1)*len(origin_array)/20)],sym = 'o', \
+        vert = True,\
+        patch_artist = True,\
+        meanline = False,\
+        showmeans = True,\
+        showbox = True,\
+        showcaps = True)
+        plt.xticks([])
+        plt.xlabel("Data set Part "+str((i*4+j)+1))
+        plt.ylabel("Original Data set's Distances")
+        haha.yaxis.grid(True)
+    plt.suptitle("Distances of Original Data Sets (from " + str(i*4+1) + " to " + str(str(i*4+4)+") with Outliers"))
+    #plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/orig_dist_with'+str(i+16)+'.png')
+
+for i in range(5):
+    plt.figure(i+21)
+    plt.figure(figsize=(200,100))
+    for j in range(4):
+        haha = plt.subplot(2,2,j+1)
+        plt.boxplot(simulated_array[int((i*4+j)*len(simulated_array)/20):int(((i*4+j)+1)*len(simulated_array)/20)],sym = 'o', \
+        vert = True,\
+        patch_artist = True,\
+        meanline = False,\
+        showmeans = True,\
+        showbox = True,\
+        showcaps = True,\
+        showfliers=False)
+        plt.xticks([])
+        plt.xlabel("Data set Part "+str((i*4+j)+1))
+        plt.ylabel("Simulated Data Set's Distances")
+        haha.yaxis.grid(True)
+    plt.suptitle("Distances of Simulated Data Sets (from " + str(i*4+1) + " to " + str(str(i*4+4)+") without Outliers"))
+    #plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/simu_dist_without'+str(i+16)+'.png')
+
+for i in range(5):
+    plt.figure(i+26)
+    plt.figure(figsize=(200,100))
+    for j in range(4):
+        haha = plt.subplot(2,2,j+1)
+        plt.boxplot(simulated_array[int((i*4+j)*len(simulated_array)/20):int(((i*4+j)+1)*len(simulated_array)/20)],sym = 'o', \
+        vert = True,\
+        patch_artist = True,\
+        meanline = False,\
+        showmeans = True,\
+        showbox = True,\
+        showcaps = True)
+        plt.xticks([])
+        plt.xlabel("Data set Part "+str((i*4+j)+1))
+        plt.ylabel("Simulated Data Set's Distances")
+        haha.yaxis.grid(True)
+    plt.suptitle("Distances of Simulated Data Sets (from " + str(i*4+1) + " to " + str(str(i*4+4)+") with Outliers"))
+    #plt.savefig('/home/qikaiy2/Downloads/reu2019-tutorials/qikaiy2_project_1/results/graph/simu_dist_with'+str(i+16)+'.png')
 
 plt.show()
