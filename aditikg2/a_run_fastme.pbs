@@ -1,0 +1,49 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M [YourNetID]@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+
+cur="/projects/tallis/aditikg2/reu2019-tutorials/1-campus-cluster/aditikg2" # This line is not very ideal
+data="$cur/../../data"
+tools="$cur/../../tools"
+
+for ((i=1;i<=3;i++)) # Loop through the 3 model conditions
+do
+    for ((j=0;j<5;j++)) # Loop through the 5 replicate datasets
+    do
+	sp_dir="100M$i/R$j"
+	dir="$data/$sp_dir"
+	raw_in="$dir/rose.aln.true.fasta"
+	
+	mkdir -p $cur/inputs/$sp_dir # Make a inputs directory to store converted inputs
+	in=$cur/inputs/$sp_dir/rose.aln.true.phy
+	
+	python3 $tools/seqtools.py -f p -i $raw_in -o $in # Run seqtools.py to convert input into desirable format
+
+	# Run FASTME for the following four combinations
+
+	dp_bionj=$cur/outputs/dp_bionj/$sp_dir # p-distances, BioNJ
+	dp_nj=$cur/outputs/dp_nj/$sp_dir # p-distances, NJ
+	dK_bionj=$cur/outputs/dK_bionj/$sp_dir # K2P, BioNJ 
+	dK_nj=$cur/outputs/dK_nj/$sp_dir # K2P, NJ
+	
+	mkdir -p $dp_bionj
+	fastme-2.1.5-linux64-omp -i $in -dp -o $dp_bionj/rose.tt
+	
+	mkdir -p $dp_nj
+	fastme-2.1.5-linux64-omp -i $in -dp -m N -o $dp_nj/rose.tt
+	
+	mkdir -p $dK_bionj
+	fastme-2.1.5-linux64-omp -i $in -dK -o $dK_bionj/rose.tt
+	
+	mkdir -p $dK_nj
+	fastme-2.1.5-linux64-omp -i $in -dK -m N -o $dK_nj/rose.tt
+    done
+done
