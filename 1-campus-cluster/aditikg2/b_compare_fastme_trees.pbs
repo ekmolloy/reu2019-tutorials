@@ -1,0 +1,46 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M aditikg2@illinoisedu
+#PBS -m be
+
+cur="/projects/tallis/aditikg2/tutorials/1-campus-cluster/aditikg2"
+out="$cur/outputs"
+data="$cur/../../data"
+tools="$cur/../../tools"
+comp_tr="$tools/compare_trees.py"
+
+touch fastme.csv # Make the csv file
+
+printf "MODL,REPL,DIST,TREE,NL,I1,I2,FP,FN,RF\n" > fastme.csv # Write the header of the csv file
+
+for ((i=1;i<=3;i++))
+do
+    for ((j=0;j<5;j++))
+    do
+	sp_dir="100M$i/R$j"
+	tree_2="$data/$sp_dir/rose.tt"
+	mod_rep="100M$i,R$j"
+	
+	tree_1="$out/dp_bionj/$sp_dir/rose.tt"
+	printf "$mod_rep,P,BioNJ," >> fastme.csv
+	python3 $comp_tr $tree_1 $tree_2 >> fastme.csv
+
+	tree_1="$out/dp_nj/$sp_dir/rose.tt"
+	printf "$mod_rep,P,NJ" >> fastme.csv
+	python3 $comp_tr $tree_1 $tree_2 >> fastme.csv
+
+	tree_1="$out/dK_bionj/$sp_dir/rose.tt"
+	printf "$mod_rep,K2P,BioNJ," >> fastme.csv
+	python3 $comp_tr $tree_1 $tree_2 >> fastme.csv
+
+	tree_1="$out/dK_nj/$sp_dir/rose.tt"
+	printf "$mod_rep,K2P,NJ" >> fastme.csv
+	python3 $comp_tr $tree_1 $tree_2 >> fastme.csv
+
+    done
+done
