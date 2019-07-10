@@ -1,0 +1,104 @@
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_flava_lsu15408 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_erythrocephala_fmnh343370 and piranga_ludoviciana_sdsu2650 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_bidentata_tepe59 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_olivacea_ku4672 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2385 and piranga_ludoviciana_sdsu2648 are exactly identical
+
+IMPORTANT WARNING
+Found 5 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-3198/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 91 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 91
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-3198/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-3198 -m GTRGAMMA -T 12 -n Estiuce-3198 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.190 0.211 0.331 0.269 
+
+
+WARNING the alpha parameter with a value of 15.274074 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.405720 GAMMA-based likelihood -3606.582054, best rearrangement setting 5
+alpha[0]: 15.274074 rates[0] ac ag at cg ct gt: 1.986985 2.615909 0.193655 0.992710 2.538866 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+
+WARNING the alpha parameter with a value of 30.569378 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -3606.576692 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-3198/RAxML_result.Estiuce-3198
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3606.576692 .... 
+
+Final GAMMA-based Score of best tree -3606.576611
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-3198/RAxML_info.Estiuce-3198
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-3198/RAxML_bestTree.Estiuce-3198
+
+Overall execution time: 0.747193 secs or 0.000208 hours or 0.000009 days
+

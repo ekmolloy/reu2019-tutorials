@@ -1,0 +1,184 @@
+
+
+IMPORTANT WARNING: Sequences cardinalis_cardinalis_ku21828 and cardinalis_cardinalis_ku25393 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_rubriceps_lsu34818 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_erythrocephala_fmnh343370 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_leucoptera_lsu7783 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_leucoptera_fmnh481795 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_roseogularis_ku2141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_flava_lsu15408 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_lutea_lsu5400 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_lutea_ku89864 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_hepatica_ku4970 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_hepatica_ku9084 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_olivacea_ku2699 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_ludoviciana_sdsu2648 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_ludoviciana_sdsu2650 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_bidentata_hgoslp104 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_olivacea_ku4672 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_bidentata_tepe59 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_bidentata_itm160 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_bidentata_itm141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_sdsu2654 and piranga_rubra_ku7046 are exactly identical
+
+IMPORTANT WARNING
+Found 20 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-6070/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 33 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 33
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-6070/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6070 -m GTRGAMMA -T 12 -n Estiuce-6070 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.192 0.186 0.274 0.348 
+
+
+WARNING the alpha parameter with a value of 13.037482 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 30.175564 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 69.730268 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.349873 GAMMA-based likelihood -2987.499663, best rearrangement setting 5
+alpha[0]: 69.730268 rates[0] ac ag at cg ct gt: 3.654731 7.700190 0.000100 0.000100 8.079457 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+
+WARNING the alpha parameter with a value of 151.847938 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 341.443077 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 779.160824 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 1000.000000 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 1000.000000 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 1000.000000 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -2985.132791 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6070/RAxML_result.Estiuce-6070
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2985.132791 .... 
+
+Final GAMMA-based Score of best tree -2985.132785
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6070/RAxML_info.Estiuce-6070
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6070/RAxML_bestTree.Estiuce-6070
+
+Overall execution time: 0.636057 secs or 0.000177 hours or 0.000007 days
+

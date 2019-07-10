@@ -1,0 +1,72 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 164 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.95%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 164
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s uce_phylip/uce-7716.nexus.phylip -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7716 -m GTRGAMMA -T 12 -n TRUEuce-7716 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.290 0.228 0.182 0.300 
+
+Inference[0]: Time 1.364897 GAMMA-based likelihood -2105.249223, best rearrangement setting 5
+alpha[0]: 0.020000 rates[0] ac ag at cg ct gt: 0.798106 2.537199 0.736731 0.907790 3.654891 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -2105.212785 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7716/RAxML_result.TRUEuce-7716
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -2105.212785 .... 
+
+Final GAMMA-based Score of best tree -2105.212736
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7716/RAxML_info.TRUEuce-7716
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7716/RAxML_bestTree.TRUEuce-7716
+
+Overall execution time: 1.782935 secs or 0.000495 hours or 0.000021 days
+

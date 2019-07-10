@@ -1,0 +1,143 @@
+
+
+IMPORTANT WARNING: Sequences cardinalis_cardinalis_ku21828 and cardinalis_cardinalis_ku25393 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_erythrocephala_fmnh343370 and piranga_erythrocephala_fmnh343371 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_roseogularis_ku2141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_rubriceps_lsu34818 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_olivacea_ku4672 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2648 and piranga_ludoviciana_sdsu2650 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2648 and piranga_ludoviciana_sdsu2385 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2648 and piranga_ludoviciana_sdsu2208 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm160 and piranga_bidentata_itm141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_lutea_lsu5400 and piranga_hepatica_ku4970 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_lutea_lsu5400 and piranga_flava_ku90809 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_lutea_lsu5400 and piranga_flava_lsu15408 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_lutea_lsu5400 and piranga_rubra_ku7046 are exactly identical
+
+IMPORTANT WARNING
+Found 13 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-18/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 60 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 60
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-18/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-18 -m GTRGAMMA -T 12 -n Estiuce-18 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.208 0.204 0.324 0.264 
+
+
+WARNING the alpha parameter with a value of 22.851362 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 52.534334 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 120.950800 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+
+WARNING the alpha parameter with a value of 269.761042 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.323302 GAMMA-based likelihood -3470.066746, best rearrangement setting 5
+alpha[0]: 269.761042 rates[0] ac ag at cg ct gt: 0.000100 9.803464 0.336057 1.259721 4.048526 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+
+WARNING the alpha parameter with a value of 613.346278 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -3470.004390 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-18/RAxML_result.Estiuce-18
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3470.004390 .... 
+
+Final GAMMA-based Score of best tree -3470.004386
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-18/RAxML_info.Estiuce-18
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-18/RAxML_bestTree.Estiuce-18
+
+Overall execution time: 0.625183 secs or 0.000174 hours or 0.000007 days
+
