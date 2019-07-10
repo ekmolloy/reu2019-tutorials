@@ -1,0 +1,95 @@
+
+
+IMPORTANT WARNING: Sequences piranga_erythrocephala_fmnh343371 and piranga_erythrocephala_fmnh343370 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm160 and piranga_bidentata_itm141 are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-2971/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 151 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 151
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-2971/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-2971 -m GTRGAMMA -T 12 -n Estiuce-2971 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.177 0.205 0.341 0.277 
+
+
+WARNING the alpha parameter with a value of 17.484592 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0]: Time 0.563502 GAMMA-based likelihood -4393.308364, best rearrangement setting 5
+alpha[0]: 17.484592 rates[0] ac ag at cg ct gt: 4.632946 14.067557 3.285950 1.256631 6.482566 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+
+WARNING the alpha parameter with a value of 38.254474 estimated by RAxML for partition number 0 with the name "No Name Provided"
+is larger than 10.000000. You should do a model test and confirm that you actually need to incorporate a model of rate heterogeneity!
+You can run inferences with a plain substitution model (without rate heterogeneity) by specifyng the CAT model and the "-V" option!
+
+Inference[0] final GAMMA-based Likelihood: -4393.250720 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-2971/RAxML_result.Estiuce-2971
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -4393.250720 .... 
+
+Final GAMMA-based Score of best tree -4393.250720
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-2971/RAxML_info.Estiuce-2971
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-2971/RAxML_bestTree.Estiuce-2971
+
+Overall execution time: 0.875245 secs or 0.000243 hours or 0.000010 days
+

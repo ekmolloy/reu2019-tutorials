@@ -1,0 +1,115 @@
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku9084 and piranga_ludoviciana_sdsu2648 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_leucoptera_lsu7783 and piranga_erythrocephala_fmnh343371 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_rubriceps_lsu34818 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_roseogularis_ku2141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_ku7046 and piranga_lutea_lsu5400 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_ku7046 and piranga_bidentata_itm160 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_ku7046 and piranga_rubra_sdsu2635 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_ku7046 and piranga_bidentata_tepe59 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_ku7046 and piranga_bidentata_itm141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_ludoviciana_sdsu2385 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_flava_ku90809 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2208 and piranga_rubra_ku26592 are exactly identical
+
+IMPORTANT WARNING
+Found 12 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-6316/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 65 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 65
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-6316/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6316 -m GTRGAMMA -T 12 -n Estiuce-6316 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.167 0.192 0.309 0.332 
+
+Inference[0]: Time 0.350297 GAMMA-based likelihood -3362.839781, best rearrangement setting 5
+alpha[0]: 2.071770 rates[0] ac ag at cg ct gt: 4.782357 37.226915 0.000100 25.014810 24.135640 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3362.435103 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6316/RAxML_result.Estiuce-6316
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3362.435103 .... 
+
+Final GAMMA-based Score of best tree -3362.434305
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6316/RAxML_info.Estiuce-6316
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6316/RAxML_bestTree.Estiuce-6316
+
+Overall execution time: 0.619643 secs or 0.000172 hours or 0.000007 days
+

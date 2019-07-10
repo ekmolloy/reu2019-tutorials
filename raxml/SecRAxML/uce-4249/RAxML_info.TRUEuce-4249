@@ -1,0 +1,89 @@
+
+
+IMPORTANT WARNING: Sequences piranga_ludoviciana_sdsu2385 and piranga_bidentata_tepe59 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm160 and piranga_bidentata_itm141 are exactly identical
+
+IMPORTANT WARNING
+Found 2 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file uce_phylip/uce-4249.nexus.phylip.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 84 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 6.24%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 84
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s uce_phylip/uce-4249.nexus.phylip -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4249 -m GTRGAMMA -T 12 -n TRUEuce-4249 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.290 0.226 0.229 0.256 
+
+
+
+ BFGS required too many iterations, reverting to Brent-based optimizer
+
+Inference[0]: Time 0.757099 GAMMA-based likelihood -985.743465, best rearrangement setting 10
+alpha[0]: 0.374848 rates[0] ac ag at cg ct gt: 169.105694 2053.121433 151.843407 214.981549 1545.770412 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -985.743450 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4249/RAxML_result.TRUEuce-4249
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -985.743450 .... 
+
+Final GAMMA-based Score of best tree -985.743432
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4249/RAxML_info.TRUEuce-4249
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4249/RAxML_bestTree.TRUEuce-4249
+
+Overall execution time: 1.070275 secs or 0.000297 hours or 0.000012 days
+

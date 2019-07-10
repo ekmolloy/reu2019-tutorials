@@ -1,0 +1,109 @@
+
+
+IMPORTANT WARNING: Sequences cardinalis_cardinalis_ku25393 and cardinalis_cardinalis_ku21828 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cardinalis_cardinalis_ku25393 and piranga_erythrocephala_fmnh343370 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_bidentata_itm160 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_ludoviciana_sdsu2650 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_bidentata_hgoslp104 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_ludoviciana_sdsu2208 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_olivacea_ku4672 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_ludoviciana_sdsu2385 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_bidentata_itm141 and piranga_olivacea_ku2699 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku4970 and piranga_flava_lsu15408 are exactly identical
+
+IMPORTANT WARNING
+Found 10 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-6113/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 78 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 78
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-6113/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6113 -m GTRGAMMA -T 12 -n Estiuce-6113 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.161 0.210 0.283 0.346 
+
+Inference[0]: Time 0.384301 GAMMA-based likelihood -3449.453772, best rearrangement setting 10
+alpha[0]: 1.041722 rates[0] ac ag at cg ct gt: 0.856988 4.687146 0.519221 1.306661 7.062151 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3449.453715 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6113/RAxML_result.Estiuce-6113
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3449.453715 .... 
+
+Final GAMMA-based Score of best tree -3449.453709
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6113/RAxML_info.Estiuce-6113
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-6113/RAxML_bestTree.Estiuce-6113
+
+Overall execution time: 0.710562 secs or 0.000197 hours or 0.000008 days
+

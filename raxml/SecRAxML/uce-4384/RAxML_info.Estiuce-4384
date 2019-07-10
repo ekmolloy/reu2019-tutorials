@@ -1,0 +1,115 @@
+
+
+IMPORTANT WARNING: Sequences piranga_leucoptera_lsu7783 and piranga_erythrocephala_fmnh343370 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_leucoptera_lsu7783 and piranga_rubriceps_lsu34818 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_leucoptera_lsu7783 and piranga_rubriceps_lsu265 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_ludoviciana_sdsu2650 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_ludoviciana_sdsu2208 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_bidentata_itm160 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_bidentata_itm141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_roseogularis_ku2049 and piranga_ludoviciana_sdsu2385 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku4970 and piranga_hepatica_ku9084 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_flava_ku90809 and piranga_flava_lsu15408 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_sdsu2635 and piranga_rubra_ku7046 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_rubra_sdsu2635 and piranga_rubra_ku26592 are exactly identical
+
+IMPORTANT WARNING
+Found 12 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-4384/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 44 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 44
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-4384/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4384 -m GTRGAMMA -T 12 -n Estiuce-4384 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.160 0.131 0.351 0.357 
+
+Inference[0]: Time 0.345081 GAMMA-based likelihood -3003.938461, best rearrangement setting 5
+alpha[0]: 6.141758 rates[0] ac ag at cg ct gt: 0.000100 15.959613 2.194114 0.000100 5.470996 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3003.910647 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4384/RAxML_result.Estiuce-4384
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3003.910647 .... 
+
+Final GAMMA-based Score of best tree -3003.910632
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4384/RAxML_info.Estiuce-4384
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-4384/RAxML_bestTree.Estiuce-4384
+
+Overall execution time: 0.620457 secs or 0.000172 hours or 0.000007 days
+

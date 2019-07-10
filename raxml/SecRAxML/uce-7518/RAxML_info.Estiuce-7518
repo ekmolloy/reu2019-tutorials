@@ -1,0 +1,127 @@
+
+
+IMPORTANT WARNING: Sequences piranga_rubriceps_lsu265 and piranga_rubriceps_lsu34818 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_hepatica_ku9084 and piranga_erythrocephala_fmnh343370 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_bidentata_itm141 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_bidentata_itm160 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_rubra_sdsu2654 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_rubra_sdsu2635 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_bidentata_tepe59 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_ludoviciana_sdsu2648 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_bidentata_hgoslp104 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_olivacea_ku4672 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_lutea_lsu5400 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_flava_lsu15408 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_flava_ku90809 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_ludoviciana_sdsu2650 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_hepatica_ku4970 are exactly identical
+
+
+IMPORTANT WARNING: Sequences piranga_olivacea_ku2699 and piranga_ludoviciana_sdsu2208 are exactly identical
+
+IMPORTANT WARNING
+Found 16 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file EstimatedSeq/uce-7518/Estimated_TRUE.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 51 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.00%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 51
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+./raxmlHPC-PTHREADS-SSE3 -s EstimatedSeq/uce-7518/Estimated_TRUE.phy -p 1 -w /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7518 -m GTRGAMMA -T 12 -n Estiuce-7518 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.161 0.167 0.313 0.359 
+
+Inference[0]: Time 0.467183 GAMMA-based likelihood -3121.656491, best rearrangement setting 10
+alpha[0]: 3.479046 rates[0] ac ag at cg ct gt: 0.814764 0.859572 0.147362 0.495224 0.794933 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3121.656402 tree written to file /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7518/RAxML_result.Estiuce-7518
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -3121.656402 .... 
+
+Final GAMMA-based Score of best tree -3121.656397
+
+Program execution info written to /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7518/RAxML_info.Estiuce-7518
+Best-scoring ML tree written to: /projects/tallis/binghui2/reu2019-tutorials/raxml/SecRAxML/uce-7518/RAxML_bestTree.Estiuce-7518
+
+Overall execution time: 0.739312 secs or 0.000205 hours or 0.000009 days
+
