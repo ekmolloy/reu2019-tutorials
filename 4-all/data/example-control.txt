@@ -1,4 +1,4 @@
-nother useful thing to know is that anything after a forward slash and star
+/*Another useful thing to know is that anything after a forward slash and star
    is ignored until INDELible sees a star followed by a forward slash later on.
 */     
 
