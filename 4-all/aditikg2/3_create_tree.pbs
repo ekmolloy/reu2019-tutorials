@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -M [YourNetID]@illinois.edu
+#PBS -m be
+
+cd $PBS_O_WORKDIR
+
+cur="/projects/tallis/aditikg2/tutorials/4-all/aditikg2" # This line is not very ideal
+data="$cur/../data/100M3"
+tools="$cur/../../tools"
+
+for ((i=0;i<5;i++))
+do
+    for n in '1' 0.1 0.05 0.01 0.005 0.001
+    do
+	if [ $n == '1' ]
+	then
+	    fl_nm="$cur/control_$i"
+	else
+	    fl_nm="$cur/control_${i}_${n/./_}"
+	fi
+	
+	fastme-2.1.5-linux64-omp -i "${fl_nm}_TRUE.phy" -dJ -o "${fl_nm}.tt" 
+    done
+done
