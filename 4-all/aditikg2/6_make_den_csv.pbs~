@@ -1,0 +1,46 @@
+#!/bin/bash
+#PBS -N "tutorial-1-campus-cluster"
+#PBS -W group_list=tallis
+#PBS -q secondary
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -M aditikg2@illinois.edu
+#PBS -m be
+
+cur="/projects/tallis/aditikg2/tutorials/4-all/aditikg2"
+data="$cur/../data/100M3"
+csv="$cur/file_6.csv"
+
+touch $csv
+printf "MODL,REPL,MULT,DIST,TREE,ESTI_LNTH,TRUE_LNTH\n" > $csv
+
+for ((i=0;i<5;i++))
+do
+    for n in '1' 0.1 0.05 0.01 0.005 0.001
+    do	
+	if [ $n == '1' ]
+	then
+	    tree_1="$data/R$i/rose.mt"
+	    tree_2="$cur/control_$i.tt"
+	else
+	    tree_1="$data/R$i/rose_${n/./_}.mt"
+	    tree_2="$cur/control_${i}_${n/./_}.tt"
+	fi
+
+	if  [ -f $tree_2 ] && [ -f $tree_1 ]
+	then
+	    python3 "$cur/6_compare_bipartitions.py" `cat $tree_1` `cat $tree_2`
+	    comp=`cat "$cur/compare.csv"`
+	    
+	    while read -r line
+	    do
+		printf "100M3,R$i,$n,JC,NJ," >> $csv
+		printf $line >> $csv
+		printf "\n" >> $csv
+	    done < "$cur/compare.csv"
+	else
+	    printf "100M3,R$i,$n,JC,NJ,\n" >> $csv
+	fi
+    done
+done
