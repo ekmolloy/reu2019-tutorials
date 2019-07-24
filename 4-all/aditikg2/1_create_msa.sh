@@ -19,7 +19,7 @@ do
 	    repl=$repl_orig
 	    sed -i "s/outputname/control_$i/g" $fl_nm
 	else
-	    python3 scale_tree.py $repl_orig $n
+	    python3 2_scale_tree.py $repl_orig $n
 	    sed -i "s/outputname/control_${i}_${f}/g" $fl_nm
 	fi
 	
