@@ -10,7 +10,7 @@
 
 cd $PBS_O_WORKDIR
 
-cur="/projects/tallis/aditikg2/reu2019-tutorials/1-campus-cluster/aditikg2" # This line is not very ideal
+cur="/projects/tallis/aditikg2/tutorials/1-campus-cluster/aditikg2" # This line is not very ideal
 data="$cur/../../data"
 tools="$cur/../../tools"
 
