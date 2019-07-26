@@ -3,7 +3,7 @@ import sys
 def nex_to_phy(f_nex):
 
     f = open(f_nex, 'r')
-    out = open(f_nex.replace(".nex", ".phylip").replace("data", "output"), 'w+')
+    out = open(f_nex.replace(".nex", ".phylip").replace("data", "output/raxml_out"), 'w+')
 
     lines = f.readlines()
     num = 0

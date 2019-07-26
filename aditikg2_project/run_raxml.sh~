@@ -8,6 +8,7 @@ for i in $files
 do
     python3 nex_to_phy.py $i
     phylip=${i/'.nex'/'.phylip'}
-    msa=${phylip/'data'/'output/raxml_out'}
-    $raxml --msa $msa --model GTR+G --threads 1 # Use 1 thread per 500 DNA sequences
+    msa=${phylip/'data'/'output'}
+    #$raxml --msa $msa --model GTR+G --threads 1 # Use 1 thread per 500 DNA sequences
+    printf 'in\n'
 done
