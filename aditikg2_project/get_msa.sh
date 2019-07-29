@@ -35,7 +35,7 @@ do
 
     # Run INDELible
     "$cur/indelible" "$cur/control.txt" 
-    #rm "$cur/control.txt"
+    rm "$cur/control.txt"
 
     # Move output files to the output directory
     mv "$cur/${out_nm}.fas" $out
