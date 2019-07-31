@@ -1,0 +1,53 @@
+
+P A U P *
+Version 4.0a (build 165) for Unix/Linux (built on Apr  1 2019 at 23:00:36)
+Wed Jul 31 17:12:50 2019
+
+        -----------------------------NOTICE-----------------------------
+          This is an alpha-test version that is still changing rapidly.
+          It will expire on 1 Sep 2019.
+
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on Intel(R) 64 architecture
+SSE vectorization enabled
+SSSE3 instructions supported
+Multithreading enabled for likelihood using Pthreads
+Compiled using GNU C compiler (gcc) 4.4.7
+
+paup>exe /projects/tallis/aditikg2/tutorials/aditikg2_project/data/Scincella/Scincella_606.nex; cstatus; q;
+
+Processing of file
+"/projects/tallis/aditikg2/tutorials/aditikg2_project/data/Scincella/Scincella_606.nex" begins...
+
+Data read in DNA format
+
+Data matrix has 153 taxa, 505 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of input file "Scincella_606.nex" completed.
+
+Character-status summary:
+  Current optimality criterion = parsimony
+  No characters are excluded
+  Of 505 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    444 characters are constant (proportion = 0.879208)
+    34 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 27
