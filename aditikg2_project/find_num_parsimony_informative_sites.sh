@@ -6,6 +6,8 @@ data="$cur/data/Scincella"
 files="$data/*.nex"
 out="$cur/output/data_info_out/Scincella"
 
+counter=0
+
 for f in $files
 do
     base=`basename $f`
@@ -15,6 +17,14 @@ do
     num_prsmny_info=`grep -F 'Number of parsimony-informative characters = ' $out_f`
     num_prsmny_info=${num_prsmny_info/'Number of parsimony-informative characters = '/''}
 
-    echo $num_prsmny_info > "$out/parsimony_info_sites_data"
+    if [ "$counter" -eq "0" ]
+    then
+	echo $num_prsmny_info > "$out/parsimony_info_sites_data"
+    else
+	echo $num_prsmny_info >> "$out/parsimony_info_sites_data"
+    fi
+
+    rm $out_f
+    counter=$((counter + 1))
 done
 
